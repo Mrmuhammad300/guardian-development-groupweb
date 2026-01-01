@@ -139,8 +139,8 @@ export default function Layout({ children }: { children: React.ReactNode }) {
           <div>
             <h4 className="font-heading text-lg mb-6 text-accent">Contact</h4>
             <address className="not-italic text-muted-foreground space-y-2 font-light">
-              <p>1200 Architectural Ave, Suite 400</p>
-              <p>New York, NY 10001</p>
+              <p>Aurora, OH</p>
+              <p>Cleveland Metropolitan Area</p>
               <p className="mt-4 text-white">info@guardiandg.com</p>
               <p className="text-white">+1 (212) 555-0199</p>
             </address>

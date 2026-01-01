@@ -22,7 +22,7 @@ export default function Home() {
           <div className="lg:col-span-8">
             <div className="inline-block mb-6 border-l-2 border-accent pl-4">
               <span className="text-accent font-mono uppercase tracking-widest text-sm">
-                Est. 1995 &mdash; Institutional Grade Development
+                Est. 2025 &mdash; Institutional Grade Development
               </span>
             </div>
             <h1 className="font-heading text-5xl md:text-7xl lg:text-8xl font-semibold text-white leading-[0.9] tracking-tight mb-8">
@@ -98,7 +98,7 @@ export default function Home() {
                 Guardian Development Group was formed on a simple principle: <strong className="text-primary font-medium">complex projects demand truthful leadership.</strong>
               </p>
               <p>
-                With more than 30 years of combined strategic and operational experience, our team has led developments across multiple sectors—projects involving layered financing, regulatory scrutiny, public-private coordination, and long-term operational considerations.
+                With more than 40 years of combined strategic and operational experience, our team has led developments across multiple sectors—projects involving layered financing, regulatory scrutiny, public-private coordination, and long-term operational considerations.
               </p>
               <p>
                 In an industry where opacity often creates risk, Guardian operates differently. We believe transparency is not a liability—it is a strategic advantage.

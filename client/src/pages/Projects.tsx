@@ -51,7 +51,7 @@ export default function Projects() {
             </div>
             <div className="flex gap-8 text-right font-mono text-sm text-muted-foreground hidden md:block">
               <div>
-                <span className="block text-primary font-bold text-2xl">30+</span>
+                <span className="block text-primary font-bold text-2xl">40+</span>
                 <span>Years Exp.</span>
               </div>
               <div>

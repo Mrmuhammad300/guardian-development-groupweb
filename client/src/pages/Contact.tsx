@@ -29,8 +29,8 @@ export default function Contact() {
               <div className="flex items-start gap-4 text-muted-foreground font-light">
                 <MapPin className="w-5 h-5 text-accent mt-1 flex-shrink-0" />
                 <address className="not-italic">
-                  1200 Architectural Ave, Suite 400<br />
-                  New York, NY 10001<br />
+                  Aurora, OH<br />
+                  Cleveland Metropolitan Area<br />
                   United States
                 </address>
               </div>

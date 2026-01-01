@@ -28,7 +28,7 @@ export default function About() {
           </div>
           <div className="md:col-span-8 space-y-8 text-lg text-muted-foreground font-light leading-relaxed">
             <p>
-              <strong className="text-primary font-medium">Guardian Development Group</strong> was founded in 1995 on a contrarian belief: that the most valuable opportunities in real estate are the ones others avoid due to complexity.
+              <strong className="text-primary font-medium">Guardian Development Group</strong> was established in 2025 on a contrarian belief: that the most valuable opportunities in real estate are the ones others avoid due to complexity.
             </p>
             <p>
               While the market chased easy assets, we built our reputation on the difficult ones—brownfield sites, public-private partnerships, and multi-layered capital stacks. We learned that with enough discipline, transparency, and strategic foresight, "impossible" projects become the most rewarding.
@@ -39,7 +39,7 @@ export default function About() {
             
             <div className="grid grid-cols-2 gap-8 mt-12 border-t border-border pt-12">
               <div>
-                <span className="block text-4xl font-heading text-primary mb-2">30+</span>
+                <span className="block text-4xl font-heading text-primary mb-2">40+</span>
                 <span className="text-sm font-mono uppercase tracking-widest">Years of Experience</span>
               </div>
               <div>
