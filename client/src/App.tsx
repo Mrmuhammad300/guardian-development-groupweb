@@ -9,6 +9,7 @@ import Expertise from "./pages/Expertise";
 import Projects from "./pages/Projects";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
+import SiteSyncOS from "./pages/SiteSyncOS";
 import Layout from "./components/Layout";
 
 
@@ -21,6 +22,7 @@ function Router() {
         <Route path={"/projects"} component={Projects} />
         <Route path={"/about"} component={About} />
         <Route path={"/contact"} component={Contact} />
+        <Route path={"/sitesync-os"} component={SiteSyncOS} />
         <Route path={"/404"} component={NotFound} />
         {/* Final fallback route */}
         <Route component={NotFound} />

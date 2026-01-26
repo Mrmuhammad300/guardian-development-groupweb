@@ -32,21 +32,25 @@ export default function Home() {
             <p className="text-xl md:text-2xl text-gray-300 max-w-2xl font-light leading-relaxed mb-10 border-l border-white/20 pl-6 ml-2">
               We protect value by building with truth, transparency, and disciplined execution. Where others build assets, Guardian builds certainty.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 ml-2">
+            <div className="flex flex-col md:flex-row gap-4 mt-12">
               <Link href="/projects">
                 <Button size="lg" className="bg-accent text-primary hover:bg-white hover:text-primary rounded-none h-14 px-8 text-sm uppercase tracking-widest font-bold">
-                  View Our Work
+                  View Our Work <ArrowRight className="ml-2 h-4 w-4" />
+                </Button>
+              </Link>
+              <Link href="/sitesync-os">
+                <Button size="lg" className="bg-primary text-white hover:bg-accent hover:text-primary rounded-none h-14 px-8 text-sm uppercase tracking-widest font-bold">
+                  Explore SiteSyncOS
                 </Button>
               </Link>
               <Link href="/contact">
-                <Button variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-primary rounded-none h-14 px-8 text-sm uppercase tracking-widest font-bold">
+                <Button size="lg" className="bg-transparent border border-primary text-primary hover:bg-primary hover:text-white rounded-none h-14 px-8 text-sm uppercase tracking-widest font-bold">
                   Partner With Us
                 </Button>
               </Link>
             </div>
           </div>
-          
-          {/* Decorative Technical Data Block */}
+          {/* Operative Technical Data Block */}
           <div className="hidden lg:flex lg:col-span-4 flex-col justify-end items-end pb-10">
             <div className="bg-primary/90 backdrop-blur-sm border border-white/10 p-6 w-full max-w-xs">
               <div className="flex justify-between items-center border-b border-white/10 pb-2 mb-4">
@@ -240,6 +244,30 @@ export default function Home() {
                   Learn More <ArrowRight className="ml-2 w-4 h-4" />
                 </a>
               </Link>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* SiteSyncOS Teaser */}
+      <section className="py-24 bg-secondary text-white border-t border-white/10">
+        <div className="container grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
+          <div>
+            <span className="text-accent font-mono uppercase tracking-widest text-sm block mb-4">Our Operating System</span>
+            <h2 className="font-heading text-4xl md:text-5xl mb-6">SiteSyncOS</h2>
+            <p className="text-xl text-gray-300 font-light leading-relaxed mb-8">
+              The execution operating system for real-world development. Unify projects, capital, compliance, and AI agents into a single system of action.
+            </p>
+            <Link href="/sitesync-os">
+              <Button size="lg" className="bg-accent text-primary hover:bg-white hover:text-primary rounded-none h-14 px-8 text-sm uppercase tracking-widest font-bold">
+                Learn More <ArrowRight className="ml-2 h-4 w-4" />
+              </Button>
+            </Link>
+          </div>
+          <div className="relative h-80 bg-white/10 border border-white/20 flex items-center justify-center">
+            <div className="text-center">
+              <div className="text-6xl font-heading text-accent mb-4">∞</div>
+              <p className="text-gray-400 font-light">Unified Execution Fabric</p>
             </div>
           </div>
         </div>
