@@ -11,7 +11,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
   const navItems = [
     { label: "Expertise", href: "/expertise" },
     { label: "Projects", href: "/projects" },
-    { label: "SiteSyncOS", href: "/sitesync-os" },
+    { label: "SiteSyncOS™", href: "/sitesync-os" },
     { label: "About", href: "/about" },
     { label: "Contact", href: "/contact" },
   ];

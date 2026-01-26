@@ -40,7 +40,7 @@ export default function Home() {
               </Link>
               <Link href="/sitesync-os">
                 <Button size="lg" className="bg-primary text-white hover:bg-accent hover:text-primary rounded-none h-14 px-8 text-sm uppercase tracking-widest font-bold">
-                  Explore SiteSyncOS
+                  Explore SiteSyncOS™
                 </Button>
               </Link>
               <Link href="/contact">
@@ -254,7 +254,7 @@ export default function Home() {
         <div className="container grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
           <div>
             <span className="text-accent font-mono uppercase tracking-widest text-sm block mb-4">Our Operating System</span>
-            <h2 className="font-heading text-4xl md:text-5xl mb-6">SiteSyncOS</h2>
+            <h2 className="font-heading text-4xl md:text-5xl mb-6">SiteSyncOS™</h2>
             <p className="text-xl text-gray-300 font-light leading-relaxed mb-8">
               The execution operating system for real-world development. Unify projects, capital, compliance, and AI agents into a single system of action.
             </p>

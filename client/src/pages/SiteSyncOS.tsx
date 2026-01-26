@@ -160,7 +160,7 @@ export default function SiteSyncOS() {
             <div className="relative z-10">
               <span className="block text-accent font-mono text-5xl mb-4 font-bold">40–60%</span>
               <span className="block text-xl font-heading mb-6">Faster Project Launch</span>
-              <p className="text-gray-400 text-sm font-light mb-8">SiteSyncOS reduces project launch time by 40–60% through unified workflows and predictive intelligence.</p>
+              <p className="text-gray-400 text-sm font-light mb-8">SiteSyncOS™ reduces project launch time by 40–60% through unified workflows and predictive intelligence.</p>
               <hr className="border-white/20 my-6" />
               <div className="space-y-4 text-sm">
                 <div className="flex justify-between">
@@ -186,7 +186,7 @@ export default function SiteSyncOS() {
         <div className="container">
           <div className="mb-16">
             <span className="text-primary/60 font-mono uppercase tracking-widest text-sm block mb-3">Core Capabilities</span>
-            <h2 className="font-heading text-4xl text-primary">Built for Real-World Development</h2>
+            <h2 className="font-heading text-4xl text-primary">SiteSyncOS™ Built for Real-World Development</h2>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {capabilities.map((cap, idx) => {
@@ -210,7 +210,7 @@ export default function SiteSyncOS() {
             <span className="text-primary/60 font-mono uppercase tracking-widest text-sm block mb-3">Integration Model</span>
             <h2 className="font-heading text-4xl text-primary">Best-Use-Case Architecture</h2>
             <p className="text-muted-foreground font-light mt-4 max-w-2xl">
-              SiteSyncOS integrates best-of-breed tools at each layer—spatial, predictive, financial, and operational—while maintaining a unified system of record.
+              SiteSyncOS™ integrates best-of-breed tools at each layer—spatial, predictive, financial, and operational—while maintaining a unified system of record.
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -264,9 +264,9 @@ export default function SiteSyncOS() {
       <section className="py-24 bg-background border-b border-border">
         <div className="container max-w-4xl">
           <div className="text-center mb-16">
-            <h2 className="font-heading text-4xl text-primary mb-6">What Sets SiteSyncOS Apart</h2>
+              <h2 className="font-heading text-4xl text-primary mb-6">What Sets SiteSyncOS™ Apart</h2>
             <p className="text-muted-foreground font-light text-lg">
-              Unlike traditional platforms that bolt AI onto existing workflows, SiteSyncOS is built from the ground up as an operating system where spatial intelligence, financial models, and predictive agents are native.
+                Unlike traditional platforms that bolt AI onto existing workflows, SiteSyncOS™ is built from the ground up as an operating system where spatial intelligence, financial models, and predictive agents are native.
             </p>
           </div>
 
@@ -294,7 +294,7 @@ export default function SiteSyncOS() {
             </div>
 
             <div>
-              <h3 className="font-heading text-2xl text-accent mb-6">SiteSyncOS</h3>
+              <h3 className="font-heading text-2xl text-accent mb-6">SiteSyncOS™</h3>
               <div className="space-y-4">
                 <div className="p-4 bg-accent/10 border border-accent">
                   <p className="font-mono text-xs uppercase tracking-widest text-accent mb-2">Site-Centric</p>
@@ -407,7 +407,7 @@ export default function SiteSyncOS() {
         <div className="container">
           <h2 className="font-heading text-4xl md:text-5xl mb-8">Ready to Transform Your Development Process?</h2>
           <p className="text-xl text-gray-300 mb-10 max-w-2xl mx-auto font-light">
-            See how SiteSyncOS unifies execution, capital, and intelligence for complex projects.
+            See how SiteSyncOS™ unifies execution, capital, and intelligence for complex projects.
           </p>
           <Link href="/contact">
             <Button size="lg" className="bg-accent text-primary hover:bg-white hover:text-primary rounded-none h-14 px-10 text-sm uppercase tracking-widest font-bold">
