@@ -2,7 +2,8 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
-import { MapPin, Phone, Mail } from "lucide-react";
+import { MapPin, Phone, Mail, ArrowRight, Lock } from "lucide-react";
+import { Link } from "wouter";
 
 export default function Contact() {
   return (
@@ -94,6 +95,32 @@ export default function Contact() {
                 Submit Inquiry
               </Button>
             </form>
+          </div>
+        </div>
+      </section>
+
+      {/* Investor Portal CTA */}
+      <section className="py-24 bg-secondary text-white border-b border-white/10">
+        <div className="container">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
+            <div>
+              <span className="text-accent font-mono uppercase tracking-widest text-sm block mb-4">Institutional Resources</span>
+              <h2 className="font-heading text-4xl md:text-5xl mb-6">Access the Investor Portal</h2>
+              <p className="text-xl text-gray-300 font-light leading-relaxed mb-8">
+                Download Guardian's track record, risk mitigation frameworks, and capital structure models. Gated access for qualified investors and development partners.
+              </p>
+              <Link href="/investor-portal">
+                <Button size="lg" className="bg-accent text-primary hover:bg-white hover:text-primary rounded-none h-14 px-8 text-sm uppercase tracking-widest font-bold">
+                  Visit Investor Portal <ArrowRight className="ml-2 h-4 w-4" />
+                </Button>
+              </Link>
+            </div>
+            <div className="relative h-80 bg-white/10 border border-white/20 flex items-center justify-center">
+              <div className="text-center">
+                <Lock className="w-12 h-12 text-accent mx-auto mb-4" />
+                <p className="text-gray-400 font-light">Secure Access</p>
+              </div>
+            </div>
           </div>
         </div>
       </section>

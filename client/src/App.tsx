@@ -11,6 +11,7 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import SiteSyncOS from "./pages/SiteSyncOS";
 import Leadership from "./pages/Leadership";
+import InvestorPortal from "./pages/InvestorPortal";
 import Layout from "./components/Layout";
 
 
@@ -25,6 +26,7 @@ function Router() {
         <Route path={"/contact"} component={Contact} />
         <Route path={"/sitesync-os"} component={SiteSyncOS} />
         <Route path={"/leadership"} component={Leadership} />
+        <Route path={"/investor-portal"} component={InvestorPortal} />
         <Route path={"/404"} component={NotFound} />
         {/* Final fallback route */}
         <Route component={NotFound} />

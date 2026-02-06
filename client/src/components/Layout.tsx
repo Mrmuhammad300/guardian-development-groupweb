@@ -13,6 +13,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
     { label: "Projects", href: "/projects" },
     { label: "SiteSyncOS™", href: "/sitesync-os" },
     { label: "Leadership", href: "/leadership" },
+    { label: "Investor Portal", href: "/investor-portal" },
     { label: "About", href: "/about" },
     { label: "Contact", href: "/contact" },
   ];
