@@ -63,7 +63,7 @@ export default function About() {
             {/* Partner 1 */}
             <div className="group">
               <div className="aspect-[3/4] bg-secondary mb-6 relative overflow-hidden">
-                <img src="/images/handshake-detail.jpg" alt="Partner" className="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity grayscale group-hover:grayscale-0 duration-500" />
+                <img src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663249654411/BctbAtsOTIFWWVWn.jpg" alt="Partner" className="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity grayscale group-hover:grayscale-0 duration-500" />
               </div>
               <h3 className="font-heading text-2xl text-primary mb-1">James Sterling</h3>
               <p className="text-accent font-mono text-xs uppercase tracking-widest mb-4">Managing Principal</p>
@@ -75,7 +75,7 @@ export default function About() {
             {/* Partner 2 */}
             <div className="group">
               <div className="aspect-[3/4] bg-secondary mb-6 relative overflow-hidden">
-                <img src="/images/urban-planning.jpg" alt="Partner" className="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity grayscale group-hover:grayscale-0 duration-500" />
+                <img src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663249654411/AhuotoaGdPharxut.jpg" alt="Partner" className="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity grayscale group-hover:grayscale-0 duration-500" />
               </div>
               <h3 className="font-heading text-2xl text-primary mb-1">Elena Vance</h3>
               <p className="text-accent font-mono text-xs uppercase tracking-widest mb-4">Principal, Development</p>
@@ -87,13 +87,39 @@ export default function About() {
             {/* Partner 3 */}
             <div className="group">
               <div className="aspect-[3/4] bg-secondary mb-6 relative overflow-hidden">
-                <img src="/images/abstract-structure.jpg" alt="Partner" className="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity grayscale group-hover:grayscale-0 duration-500" />
+                <img src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663249654411/IIywNMIumYHyQVUd.jpg" alt="Partner" className="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity grayscale group-hover:grayscale-0 duration-500" />
               </div>
               <h3 className="font-heading text-2xl text-primary mb-1">Robert Chen</h3>
               <p className="text-accent font-mono text-xs uppercase tracking-widest mb-4">Principal, Operations</p>
               <p className="text-muted-foreground font-light text-sm leading-relaxed">
                 Ensures the "Guardian Standard" of reporting and governance. Background in forensic accounting and construction law.
               </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Leadership & Capabilities */}
+      <section className="py-24 bg-white border-b border-border">
+        <div className="container">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
+            <div>
+              <span className="text-primary/60 font-mono uppercase tracking-widest text-sm block mb-4">Our Team</span>
+              <h2 className="font-heading text-4xl md:text-5xl mb-6 text-primary">Institutional Expertise & Strategic Partnerships</h2>
+              <p className="text-xl text-muted-foreground font-light leading-relaxed mb-8">
+                Guardian's leadership brings 40+ years of combined development expertise, institutional capital structuring, and strategic partnerships across domestic and international markets.
+              </p>
+              <Link href="/leadership">
+                <Button size="lg" className="bg-primary text-white hover:bg-accent hover:text-primary rounded-none h-14 px-8 text-sm uppercase tracking-widest font-bold">
+                  Explore Our Capabilities →
+                </Button>
+              </Link>
+            </div>
+            <div className="relative h-80 bg-secondary border border-border flex items-center justify-center">
+              <div className="text-center">
+                <div className="text-6xl font-heading text-accent mb-4">40+</div>
+                <p className="text-muted-foreground font-light">Years of Development Experience</p>
+              </div>
             </div>
           </div>
         </div>

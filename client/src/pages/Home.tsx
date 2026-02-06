@@ -276,7 +276,7 @@ export default function Home() {
       {/* CTA Section */}
       <section className="py-24 bg-primary text-white relative overflow-hidden">
         <div className="absolute inset-0 opacity-20">
-            <img src="/images/urban-planning.jpg" alt="Urban Planning" className="w-full h-full object-cover mix-blend-overlay" />
+            <img src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663249654411/AhuotoaGdPharxut.jpg" alt="Urban Planning" className="w-full h-full object-cover mix-blend-overlay" />
         </div>
         <div className="container relative z-10 text-center">
           <h2 className="font-heading text-4xl md:text-5xl mb-6">Ready to Build Certainty?</h2>
