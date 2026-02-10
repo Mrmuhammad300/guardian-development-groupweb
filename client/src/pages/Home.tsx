@@ -10,7 +10,7 @@ export default function Home() {
         {/* Background Image with Overlay */}
         <div className="absolute inset-0 z-0">
           <img 
-            src="/images/hero-architecture.jpg" 
+            src="https://private-us-east-1.manuscdn.com/sessionFile/ZjFXVya7OY7OKPHR0oss06/sandbox/WIiXvLlw7WES47FgvwIOcC-img-1_1770750942000_na1fn_aGVyby1hcmNoaXRlY3R1cmUtZ2Rn.png?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvWmpGWFZ5YTdPWTdPS1BIUjBvc3MwNi9zYW5kYm94L1dJaVh2TGx3N1dFUzQ3Rmd2d0lPY0MtaW1nLTFfMTc3MDc1MDk0MjAwMF9uYTFmbl9hR1Z5YnkxaGNtTm9hWFJsWTNSMWNtVXRaMlJuLnBuZz94LW9zcy1wcm9jZXNzPWltYWdlL3Jlc2l6ZSx3XzE5MjAsaF8xOTIwL2Zvcm1hdCx3ZWJwL3F1YWxpdHkscV84MCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5ODc2MTYwMH19fV19&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=UdjrDfC-FkpoM2-d9jsPhAd4OtnttoOZGPO~PijTtAMZYYGEMKOhvNaLc2Dod71CNQhxSS8jZQMLVYclGnUiPR0K2JY-YGiJMuaqI1yr-p3L3HxpyAUeJsK7KZ9rLrHKCAf1JM87bVtd1qTMNcFgNdOpcyIu0mPTZjiktdGpMVv7BU-gU~Q80JCHmOjDFm8tO08i53cGVWevmd7hbAqpQ46~qyTK-utjaruiX7VYe~xD6RfZawXajJFwS84F-BkDtVBDoTx6FTEGdX9dNpr0rvGkT3wM~TnjRRiEB2qwF4T2nsABw3RmkpU0BqtHkLu8AmQhaM6KEG4NHhJLwik4Ng__" 
             alt="Guardian Development Group Architecture" 
             className="w-full h-full object-cover"
           />
@@ -86,7 +86,7 @@ export default function Home() {
           <div className="md:col-span-5 relative">
             <div className="aspect-[4/5] bg-secondary relative overflow-hidden">
                <img 
-                src="/images/abstract-structure.jpg" 
+                src="https://private-us-east-1.manuscdn.com/sessionFile/ZjFXVya7OY7OKPHR0oss06/sandbox/WIiXvLlw7WES47FgvwIOcC-img-2_1770750937000_na1fn_YWJzdHJhY3Qtc3RydWN0dXJlLWdkZw.png?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvWmpGWFZ5YTdPWTdPS1BIUjBvc3MwNi9zYW5kYm94L1dJaVh2TGx3N1dFUzQ3Rmd2d0lPY0MtaW1nLTJfMTc3MDc1MDkzNzAwMF9uYTFmbl9ZV0p6ZEhKaFkzUXRjM1J5ZFdOMGRYSmxMV2RrWncucG5nP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLHdfMTkyMCxoXzE5MjAvZm9ybWF0LHdlYnAvcXVhbGl0eSxxXzgwIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzk4NzYxNjAwfX19XX0_&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=lUf6smV9WuycQX72ntHkyl~ZiDymuGEj-uWrFzSm6~Ntr34PVPSV79QZigIX4GjQoMvHy4JRvMGjATd9KcZvbLdFl0jACOXHSf0zH0uEbZqmOkFXlFmkCGWQwbDlLc1tZPZxm5T2hrtzrg~cGDitOFui5ZR9SXb8QX5ghbIOcwFeuSRfCrwrjGPtVKxKZBdlhl7sn6lEg-ZoPDAL2pwvtkJ0q8Q9NnlfZOMSrKCWQjJPDiaKL6VpDLYbwGMqAo3b2146SUHfrEpirqjAdQuPvIJvIPVhXf2c2yvNDJnxGqmD6YxYhZk5rIEAqvNnUErMuxOjQ-OjXKR2vBjO8G2aew__" 
                 alt="Abstract Structural Detail" 
                 className="w-full h-full object-cover opacity-80 grayscale hover:grayscale-0 transition-all duration-700"
               />
