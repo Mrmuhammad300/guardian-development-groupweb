@@ -44,7 +44,7 @@ export default function Home() {
                 </Button>
               </Link>
               <Link href="/contact">
-                <Button size="lg" className="bg-transparent border border-primary text-primary hover:bg-primary hover:text-white rounded-none h-14 px-8 text-sm uppercase tracking-widest font-bold">
+                <Button size="lg" className="bg-accent text-primary hover:bg-white hover:text-primary rounded-none h-14 px-8 text-sm uppercase tracking-widest font-bold shadow-lg hover:shadow-xl transition-all">
                   Partner With Us
                 </Button>
               </Link>

@@ -43,12 +43,12 @@ export default function SiteSyncOS() {
       useCases: ["Parcel-level navigation", "Geo-tagged workflows", "Zoning & entitlement overlays", "Construction progress by location"]
     },
     {
-      name: "Abacus.AI",
+      name: "Quantum Ledger",
       role: "Predictive Intelligence",
       useCases: ["RFI delay prediction", "Submittal approval forecasting", "Change order impact analysis", "Bottleneck detection"]
     },
     {
-      name: "n8n",
+      name: "ZenFlow",
       role: "Orchestration & Automation",
       useCases: ["Event-driven workflows", "Automated approvals", "Stakeholder reporting", "Cross-platform sync"]
     },
@@ -68,7 +68,7 @@ export default function SiteSyncOS() {
     {
       number: "02",
       title: "AI Augmentation",
-      description: "Abacus AI agents, predictive dashboards, risk and delay forecasting"
+      description: "Quantum Ledger agents, predictive dashboards, risk and delay forecasting"
     },
     {
       number: "03",
