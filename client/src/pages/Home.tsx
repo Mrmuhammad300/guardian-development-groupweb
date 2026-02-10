@@ -81,10 +81,10 @@ export default function Home() {
       </section>
 
       {/* Mission Statement / Introduction */}
-      <section className="py-24 bg-background border-b border-border">
+      <section className="py-24 bg-accent/10 border-b border-accent/30">
         <div className="container grid grid-cols-1 md:grid-cols-12 gap-12 items-center">
           <div className="md:col-span-5 relative">
-            <div className="aspect-[4/5] bg-secondary relative overflow-hidden">
+            <div className="aspect-[4/5] bg-accent/20 relative overflow-hidden border-2 border-accent/50">
                <img 
                 src="https://private-us-east-1.manuscdn.com/sessionFile/ZjFXVya7OY7OKPHR0oss06/sandbox/WIiXvLlw7WES47FgvwIOcC-img-2_1770750937000_na1fn_YWJzdHJhY3Qtc3RydWN0dXJlLWdkZw.png?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvWmpGWFZ5YTdPWTdPS1BIUjBvc3MwNi9zYW5kYm94L1dJaVh2TGx3N1dFUzQ3Rmd2d0lPY0MtaW1nLTJfMTc3MDc1MDkzNzAwMF9uYTFmbl9ZV0p6ZEhKaFkzUXRjM1J5ZFdOMGRYSmxMV2RrWncucG5nP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLHdfMTkyMCxoXzE5MjAvZm9ybWF0LHdlYnAvcXVhbGl0eSxxXzgwIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzk4NzYxNjAwfX19XX0_&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=lUf6smV9WuycQX72ntHkyl~ZiDymuGEj-uWrFzSm6~Ntr34PVPSV79QZigIX4GjQoMvHy4JRvMGjATd9KcZvbLdFl0jACOXHSf0zH0uEbZqmOkFXlFmkCGWQwbDlLc1tZPZxm5T2hrtzrg~cGDitOFui5ZR9SXb8QX5ghbIOcwFeuSRfCrwrjGPtVKxKZBdlhl7sn6lEg-ZoPDAL2pwvtkJ0q8Q9NnlfZOMSrKCWQjJPDiaKL6VpDLYbwGMqAo3b2146SUHfrEpirqjAdQuPvIJvIPVhXf2c2yvNDJnxGqmD6YxYhZk5rIEAqvNnUErMuxOjQ-OjXKR2vBjO8G2aew__" 
                 alt="Abstract Structural Detail" 
@@ -94,12 +94,12 @@ export default function Home() {
             </div>
           </div>
           <div className="md:col-span-7">
-            <h2 className="font-heading text-4xl md:text-5xl text-primary mb-8">
+            <h2 className="font-heading text-4xl md:text-5xl text-accent mb-8">
               Complexity Is Our Discipline.
             </h2>
-            <div className="space-y-6 text-lg text-muted-foreground font-light leading-relaxed">
+            <div className="space-y-6 text-lg text-primary/80 font-light leading-relaxed">
               <p>
-                Guardian Development Group was formed on a simple principle: <strong className="text-primary font-medium">complex projects demand truthful leadership.</strong>
+                Guardian Development Group was formed on a simple principle: <strong className="text-accent font-medium">complex projects demand truthful leadership.</strong>
               </p>
               <p>
                 With more than 40 years of combined strategic and operational experience, our team has led developments across multiple sectors—projects involving layered financing, regulatory scrutiny, public-private coordination, and long-term operational considerations.
@@ -110,13 +110,13 @@ export default function Home() {
             </div>
             
             <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 gap-8">
-              <div className="border-t border-primary/20 pt-4">
-                <h3 className="font-heading text-xl text-primary mb-2">The Steward</h3>
-                <p className="text-sm text-muted-foreground">Protector of capital, community, and vision.</p>
+              <div className="border-t-2 border-accent pt-4 bg-accent/5 p-4 -mx-4">
+                <h3 className="font-heading text-xl text-accent mb-2">The Steward</h3>
+                <p className="text-sm text-primary/70">Protector of capital, community, and vision.</p>
               </div>
-              <div className="border-t border-primary/20 pt-4">
-                <h3 className="font-heading text-xl text-primary mb-2">The Architect</h3>
-                <p className="text-sm text-muted-foreground">Builder of complex systems others avoid.</p>
+              <div className="border-t-2 border-accent pt-4 bg-accent/5 p-4 -mx-4">
+                <h3 className="font-heading text-xl text-accent mb-2">The Architect</h3>
+                <p className="text-sm text-primary/70">Builder of complex systems others avoid.</p>
               </div>
             </div>
           </div>
