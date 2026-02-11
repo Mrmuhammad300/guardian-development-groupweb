@@ -14,8 +14,8 @@ import Leadership from "./pages/Leadership";
 import InvestorPortal from "./pages/InvestorPortal";
 import Layout from "./components/Layout";
 
-
 function Router() {
+  // make sure to consider if you need authentication for certain routes
   return (
     <Layout>
       <Switch>
