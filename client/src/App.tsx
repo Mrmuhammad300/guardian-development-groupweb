@@ -5,6 +5,7 @@ import { Route, Switch } from "wouter";
 import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
 import Home from "./pages/Home";
+import InvestorDashboard from "./pages/InvestorDashboard";
 import Expertise from "./pages/Expertise";
 import Projects from "./pages/Projects";
 import About from "./pages/About";
@@ -12,6 +13,7 @@ import Contact from "./pages/Contact";
 import SiteSyncOS from "./pages/SiteSyncOS";
 import Leadership from "./pages/Leadership";
 import InvestorPortal from "./pages/InvestorPortal";
+import AdminPanel from "./pages/AdminPanel";
 import Layout from "./components/Layout";
 
 function Router() {
@@ -27,6 +29,8 @@ function Router() {
         <Route path={"/sitesync-os"} component={SiteSyncOS} />
         <Route path={"/leadership"} component={Leadership} />
         <Route path={"/investor-portal"} component={InvestorPortal} />
+        <Route path={"/investor-dashboard"} component={InvestorDashboard} />
+        <Route path={"/admin"} component={AdminPanel} />
         <Route path={"/404"} component={NotFound} />
         {/* Final fallback route */}
         <Route component={NotFound} />
