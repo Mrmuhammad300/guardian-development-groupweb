@@ -529,3 +529,41 @@ export const auditLogs = mysqlTable(
 
 export type AuditLog = typeof auditLogs.$inferSelect;
 export type InsertAuditLog = typeof auditLogs.$inferInsert;
+/**
+ * EMAIL PREFERENCES TABLE
+ * Investor notification and communication preferences
+ */
+export const emailPreferences = mysqlTable(
+  "emailPreferences",
+  {
+    id: int("id").autoincrement().primaryKey(),
+    investorId: int("investorId").notNull().unique(),
+    
+    // Notification Preferences
+    notifyMilestones: boolean("notifyMilestones").default(true).notNull(),
+    notifyCapitalCalls: boolean("notifyCapitalCalls").default(true).notNull(),
+    notifyDistributions: boolean("notifyDistributions").default(true).notNull(),
+    notifyDocuments: boolean("notifyDocuments").default(true).notNull(),
+    notifyProjectUpdates: boolean("notifyProjectUpdates").default(true).notNull(),
+    
+    // Frequency Preferences
+    emailFrequency: varchar("emailFrequency", { length: 20 }).default("immediate").notNull(),
+    
+    // Communication Preferences
+    allowMarketing: boolean("allowMarketing").default(false).notNull(),
+    allowSMS: boolean("allowSMS").default(false).notNull(),
+    
+    createdAt: timestamp("createdAt").defaultNow().notNull(),
+    updatedAt: timestamp("updatedAt").defaultNow().onUpdateNow().notNull(),
+  },
+  (table) => ({
+    investorIdIdx: index("emailPreferences_investorId_idx").on(table.investorId),
+    fk_investor: foreignKey({
+      columns: [table.investorId],
+      foreignColumns: [investors.id],
+    }).onDelete("cascade"),
+  })
+);
+
+export type EmailPreferences = typeof emailPreferences.$inferSelect;
+export type InsertEmailPreferences = typeof emailPreferences.$inferInsert;
