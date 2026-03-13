@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <div className="flex flex-col">
       {/* Hero Section */}
-      <section className="relative min-h-[90vh] flex items-center border-b border-border overflow-hidden">
+      <section className="relative min-h-[90vh] flex items-center border-b border-border overflow-hidden" data-hero-section>
         {/* Background Image with Overlay */}
         <div className="absolute inset-0 z-0">
           <img 

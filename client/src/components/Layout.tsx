@@ -1,12 +1,14 @@
-import { Link, useLocation } from "wouter";
 import { cn } from "@/lib/utils";
 import { Menu, X } from "lucide-react";
-import { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
+import { Link } from "wouter";
+import { useLocation } from "wouter";
 
 export default function Layout({ children }: { children: React.ReactNode }) {
   const [location] = useLocation();
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [showFullNav, setShowFullNav] = useState(false);
 
   const navItems = [
     { label: "Expertise", href: "/expertise" },
@@ -18,10 +20,26 @@ export default function Layout({ children }: { children: React.ReactNode }) {
     { label: "Contact", href: "/contact" },
   ];
 
+  // Detect when hero section scrolls out of view
+  useEffect(() => {
+    const handleScroll = () => {
+      const heroElement = document.querySelector('[data-hero-section]');
+      if (heroElement) {
+        const rect = heroElement.getBoundingClientRect();
+        // Show nav when hero section scrolls up (bottom < 100px from top)
+        const isHeroVisible = rect.bottom > 100;
+        setShowFullNav(!isHeroVisible);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
   return (
     <div className="min-h-screen flex flex-col bg-background text-foreground font-sans selection:bg-accent selection:text-accent-foreground">
       {/* Top Navigation Bar */}
-      <header className="sticky top-0 z-50 w-full border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+      <header className="sticky top-0 z-50 w-full border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 transition-all duration-300">
         <div className="container flex h-20 items-center justify-between">
           {/* Logo */}
           <Link href="/">
@@ -40,8 +58,11 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             </a>
           </Link>
 
-          {/* Desktop Navigation */}
-          <nav className="hidden md:flex items-center gap-8">
+          {/* Desktop Navigation - Hidden on Hero, Visible After Scroll */}
+          <nav className={cn(
+            "hidden md:flex items-center gap-8 transition-all duration-300",
+            showFullNav ? "opacity-100 visible" : "opacity-0 invisible"
+          )}>
             {navItems.map((item) => (
               <Link key={item.href} href={item.href}>
                 <a
@@ -63,9 +84,12 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             </Link>
           </nav>
 
-          {/* Mobile Menu Toggle */}
+          {/* Mobile Menu Toggle - Hidden on Hero, Visible After Scroll */}
           <button
-            className="md:hidden p-2 text-primary"
+            className={cn(
+              "md:hidden p-2 text-primary transition-all duration-300",
+              showFullNav ? "opacity-100 visible" : "opacity-0 invisible"
+            )}
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
           >
             {isMobileMenuOpen ? <X /> : <Menu />}
@@ -97,73 +121,47 @@ export default function Layout({ children }: { children: React.ReactNode }) {
       )}
 
       {/* Main Content */}
-      <main className="flex-1 flex flex-col relative">
-        {/* Vertical Grid Lines (Decorative) */}
-        <div className="absolute inset-0 pointer-events-none container flex justify-between opacity-20 z-0">
-          <div className="w-[1px] h-full bg-border hidden md:block"></div>
-          <div className="w-[1px] h-full bg-border hidden md:block"></div>
-          <div className="w-[1px] h-full bg-border hidden md:block"></div>
-          <div className="w-[1px] h-full bg-border hidden md:block"></div>
-        </div>
-        
-        <div className="relative z-10 flex-1 flex flex-col">
-            {children}
-        </div>
+      <main className="flex-1 flex flex-col relative" data-hero-section>
+        {children}
       </main>
 
       {/* Footer */}
-      <footer className="border-t border-border bg-secondary text-secondary-foreground pt-16 pb-8">
-        <div className="container grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
-          <div className="col-span-1 md:col-span-2">
-            <div className="flex items-center gap-3 mb-6">
-              <div className="h-6 w-6 bg-accent flex items-center justify-center">
-                <div className="h-3 w-3 border border-primary rotate-45"></div>
-              </div>
-              <span className="font-heading font-semibold text-xl tracking-tight text-white">
-                Guardian Development Group
-              </span>
+      <footer className="border-t border-border bg-background py-16">
+        <div className="container">
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
+            <div>
+              <h3 className="font-heading font-semibold text-lg mb-4 text-primary">Guardian</h3>
+              <p className="text-sm text-muted-foreground">Development Group</p>
+              <p className="text-xs text-muted-foreground mt-2">Est. 2025 — Institutional Grade Development</p>
             </div>
-            <p className="text-muted-foreground max-w-md mb-8 font-light">
-              We protect value by building with truth, transparency, and disciplined execution. Where others build assets, Guardian builds certainty.
-            </p>
-            <div className="flex gap-4">
-                {/* Social placeholders */}
-                <div className="w-10 h-10 border border-white/20 flex items-center justify-center hover:border-accent hover:text-accent transition-colors cursor-pointer">
-                    <span className="sr-only">LinkedIn</span>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
-                </div>
-                <div className="w-10 h-10 border border-white/20 flex items-center justify-center hover:border-accent hover:text-accent transition-colors cursor-pointer">
-                    <span className="sr-only">Twitter</span>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-12.7 14.6-5.5-4.6 1.5-7.9 3.2-6.9-3.48 2.9-4.47 7.49-3.35 10.91-2.5-1.5-5.1-4-5.1-4 3.5-4.5 8-8.5 14.5-10 1.5-1 4-1 4-1s-.5 2.5-2 4c2.5-1 4.5-2 4.5-2"/></svg>
-                </div>
+            <div>
+              <h4 className="font-semibold text-sm uppercase tracking-widest mb-4">Company</h4>
+              <ul className="space-y-2 text-sm text-muted-foreground">
+                <li><Link href="/about"><a className="hover:text-primary transition-colors">About Us</a></Link></li>
+                <li><Link href="/leadership"><a className="hover:text-primary transition-colors">Leadership</a></Link></li>
+                <li><Link href="/contact"><a className="hover:text-primary transition-colors">Contact</a></Link></li>
+              </ul>
+            </div>
+            <div>
+              <h4 className="font-semibold text-sm uppercase tracking-widest mb-4">Services</h4>
+              <ul className="space-y-2 text-sm text-muted-foreground">
+                <li><Link href="/expertise"><a className="hover:text-primary transition-colors">Expertise</a></Link></li>
+                <li><Link href="/projects"><a className="hover:text-primary transition-colors">Projects</a></Link></li>
+                <li><Link href="/sitesync-os"><a className="hover:text-primary transition-colors">SiteSyncOS™</a></Link></li>
+              </ul>
+            </div>
+            <div>
+              <h4 className="font-semibold text-sm uppercase tracking-widest mb-4">Legal</h4>
+              <ul className="space-y-2 text-sm text-muted-foreground">
+                <li><Link href="/privacy"><a className="hover:text-primary transition-colors">Privacy Policy</a></Link></li>
+                <li><Link href="/terms"><a className="hover:text-primary transition-colors">Terms of Service</a></Link></li>
+              </ul>
             </div>
           </div>
-          
-          <div>
-            <h4 className="font-heading text-lg mb-6 text-accent">Contact</h4>
-            <address className="not-italic text-muted-foreground space-y-2 font-light">
-              <p>Aurora, OH</p>
-              <p>Cleveland Metropolitan Area</p>
-              <p className="mt-4 text-white">info@guardiandg.com</p>
-              <p className="text-white">+1 (212) 555-0199</p>
-            </address>
+          <div className="border-t border-border pt-8 flex flex-col md:flex-row justify-between items-center text-sm text-muted-foreground">
+            <p>&copy; 2025 Guardian Development Group. All rights reserved.</p>
+            <p>Aurora, OH | Institutional Grade Development</p>
           </div>
-
-          <div>
-            <h4 className="font-heading text-lg mb-6 text-accent">Sitemap</h4>
-            <ul className="space-y-2 text-muted-foreground font-light">
-              <li><Link href="/expertise"><a className="hover:text-white transition-colors">Expertise</a></Link></li>
-              <li><Link href="/projects"><a className="hover:text-white transition-colors">Projects</a></Link></li>
-              <li><Link href="/about"><a className="hover:text-white transition-colors">About Us</a></Link></li>
-              <li><Link href="/contact"><a className="hover:text-white transition-colors">Contact</a></Link></li>
-              <li><Link href="/privacy"><a className="hover:text-white transition-colors">Privacy Policy</a></Link></li>
-            </ul>
-          </div>
-        </div>
-        
-        <div className="container border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center text-xs text-muted-foreground font-mono uppercase tracking-wider">
-          <p>&copy; {new Date().getFullYear()} Guardian Development Group. All rights reserved.</p>
-          <p>Built on Truth. Executed with Precision.</p>
         </div>
       </footer>
     </div>
