@@ -15,6 +15,7 @@ import Leadership from "./pages/Leadership";
 import Platform from "./pages/Platform";
 import InvestorPortal from "./pages/InvestorPortal";
 import AdminPanel from "./pages/AdminPanel";
+import FAQ from "./pages/FAQ";
 import Layout from "./components/Layout";
 
 function Router() {
@@ -30,6 +31,7 @@ function Router() {
         <Route path={"/sitesync-os"} component={SiteSyncOS} />
         <Route path={"/platform"} component={Platform} />
         <Route path={"/leadership"} component={Leadership} />
+        <Route path={"/faq"} component={FAQ} />
         <Route path={"/investor-portal"} component={InvestorPortal} />
         <Route path={"/investor-dashboard"} component={InvestorDashboard} />
         <Route path={"/admin"} component={AdminPanel} />

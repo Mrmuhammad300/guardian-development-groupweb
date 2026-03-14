@@ -15,12 +15,12 @@ export default function Home() {
         {/* Background Image with Overlay */}
         <div className="absolute inset-0 z-0">
           <img 
-            src="https://private-us-east-1.manuscdn.com/sessionFile/ZjFXVya7OY7OKPHR0oss06/sandbox/WIiXvLlw7WES47FgvwIOcC-img-1_1770750942000_na1fn_aGVyby1hcmNoaXRlY3R1cmUtZ2Rn.png?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvWmpGWFZ5YTdPWTdPS1BIUjBvc3MwNi9zYW5kYm94L1dJaVh2TGx3N1dFUzQ3Rmd2d0lPY0MtaW1nLTFfMTc3MDc1MDk0MjAwMF9uYTFmbl9hR1Z5YnkxaGNtTm9hWFJsWTNSMWNtVXRaMlJuLnBuZz94LW9zcy1wcm9jZXNzPWltYWdlL3Jlc2l6ZSx3XzE5MjAsaF8xOTIwL2Zvcm1hdCx3ZWJwL3F1YWxpdHkscV84MCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5ODc2MTYwMH19fV19&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=UdjrDfC-FkpoM2-d9jsPhAd4OtnttoOZGPO~PijTtAMZYYGEMKOhvNaLc2Dod71CNQhxSS8jZQMLVYclGnUiPR0K2JY-YGiJMuaqI1yr-p3L3HxpyAUeJsK7KZ9rLrHKCAf1JM87bVtd1qTMNcFgNdOpcyIu0mPTZjiktdGpMVv7BU-gU~Q80JCHmOjDFm8tO08i53cGVWevmd7hbAqpQ46~qyTK-utjaruiX7VYe~xD6RfZawXajJFwS84F-BkDtVBDoTx6FTEGdX9dNpr0rvGkT3wM~TnjRRiEB2qwF4T2nsABw3RmkpU0BqtHkLu8AmQhaM6KEG4NHhJLwik4Ng__" 
-            alt="Guardian Development Group Architecture" 
+            src="https://d2xsxph8kpxj0f.cloudfront.net/310519663249654411/F8HMyeb57QrcRFk5aLbTxw/hero-team-photo-9wTvRAb79446tWw8XZAmGD.webp" 
+            alt="Guardian Development Group Team" 
             className="w-full h-full object-cover"
           />
-          <div className="absolute inset-0 bg-primary/80 mix-blend-multiply"></div>
-          <div className="absolute inset-0 bg-gradient-to-t from-primary via-transparent to-transparent opacity-90"></div>
+          <div className="absolute inset-0 bg-primary/60 mix-blend-multiply"></div>
+          <div className="absolute inset-0 bg-gradient-to-t from-primary via-transparent to-transparent opacity-80"></div>
         </div>
 
         <div className="container relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-8 pt-20">
@@ -273,6 +273,106 @@ export default function Home() {
             <div className="text-center">
               <div className="text-6xl font-heading text-accent mb-4">∞</div>
               <p className="text-gray-400 font-light">Unified Execution Fabric</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Investor Testimonials Section */}
+      <section className="py-24 bg-white border-t border-border">
+        <div className="container">
+          <div className="mb-16 text-center">
+            <span className="text-accent font-mono uppercase tracking-widest text-sm block mb-4">Trusted by Institutional Investors</span>
+            <h2 className="font-heading text-4xl md:text-5xl text-primary mb-6">What Investors Say</h2>
+            <p className="text-xl text-muted-foreground max-w-2xl mx-auto font-light">
+              Guardian Development Group has delivered exceptional returns and transparency to leading institutional investors, family offices, and pension funds.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
+            {/* Testimonial 1 */}
+            <div className="flex flex-col items-center text-center">
+              <div className="w-32 h-32 mb-6 rounded-lg overflow-hidden border-2 border-accent/30 hover:border-accent transition-colors">
+                <img 
+                  src="https://d2xsxph8kpxj0f.cloudfront.net/310519663249654411/F8HMyeb57QrcRFk5aLbTxw/testimonial-1-michael-chen-Mp3YQ3SpiWGStQTjgeBHLz.webp" 
+                  alt="Michael Chen" 
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <p className="text-sm text-muted-foreground mb-4 leading-relaxed italic">
+                "Guardian's disciplined approach to capital deployment and transparent reporting gave us confidence to commit $45M across three projects. Returns exceeded projections by 18%."
+              </p>
+              <h3 className="font-semibold text-primary">Michael Chen</h3>
+              <p className="text-xs text-accent uppercase tracking-wider">Institutional Investor</p>
+              <p className="text-xs text-muted-foreground mt-1">$45M Deployed</p>
+            </div>
+
+            {/* Testimonial 2 */}
+            <div className="flex flex-col items-center text-center">
+              <div className="w-32 h-32 mb-6 rounded-lg overflow-hidden border-2 border-accent/30 hover:border-accent transition-colors">
+                <img 
+                  src="https://d2xsxph8kpxj0f.cloudfront.net/310519663249654411/F8HMyeb57QrcRFk5aLbTxw/testimonial-2-sarah-martinez-RftZCoALdhcD8ibmDDoaUV.webp" 
+                  alt="Sarah Martinez" 
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <p className="text-sm text-muted-foreground mb-4 leading-relaxed italic">
+                "As a family office, we demanded institutional-grade governance. Guardian delivered exactly that—clear processes, real-time updates, and predictable outcomes."
+              </p>
+              <h3 className="font-semibold text-primary">Sarah Martinez</h3>
+              <p className="text-xs text-accent uppercase tracking-wider">Family Office Director</p>
+              <p className="text-xs text-muted-foreground mt-1">$32M Deployed</p>
+            </div>
+
+            {/* Testimonial 3 */}
+            <div className="flex flex-col items-center text-center">
+              <div className="w-32 h-32 mb-6 rounded-lg overflow-hidden border-2 border-accent/30 hover:border-accent transition-colors">
+                <img 
+                  src="https://d2xsxph8kpxj0f.cloudfront.net/310519663249654411/F8HMyeb57QrcRFk5aLbTxw/testimonial-3-james-richardson-GvEBBkXX4J9iSWKrbi9c5v.webp" 
+                  alt="James Richardson" 
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <p className="text-sm text-muted-foreground mb-4 leading-relaxed italic">
+                "In 20 years of real estate investing, I've rarely seen execution this clean. Guardian's team managed complexity without compromise. 22% IRR on our mixed-use project."
+              </p>
+              <h3 className="font-semibold text-primary">James Richardson</h3>
+              <p className="text-xs text-accent uppercase tracking-wider">Real Estate Fund Manager</p>
+              <p className="text-xs text-muted-foreground mt-1">22% IRR Achieved</p>
+            </div>
+
+            {/* Testimonial 4 */}
+            <div className="flex flex-col items-center text-center">
+              <div className="w-32 h-32 mb-6 rounded-lg overflow-hidden border-2 border-accent/30 hover:border-accent transition-colors">
+                <img 
+                  src="https://d2xsxph8kpxj0f.cloudfront.net/310519663249654411/F8HMyeb57QrcRFk5aLbTxw/testimonial-4-patricia-nguyen-EwVTGQXy8tbHdP8QR3dzrh.webp" 
+                  alt="Patricia Nguyen" 
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <p className="text-sm text-muted-foreground mb-4 leading-relaxed italic">
+                "Pension fund fiduciary requirements are stringent. Guardian's audit trails, documentation, and governance structures exceeded every compliance checkpoint."
+              </p>
+              <h3 className="font-semibold text-primary">Patricia Nguyen</h3>
+              <p className="text-xs text-accent uppercase tracking-wider">Pension Fund Director</p>
+              <p className="text-xs text-muted-foreground mt-1">$78M Deployed</p>
+            </div>
+
+            {/* Testimonial 5 */}
+            <div className="flex flex-col items-center text-center">
+              <div className="w-32 h-32 mb-6 rounded-lg overflow-hidden border-2 border-accent/30 hover:border-accent transition-colors">
+                <img 
+                  src="https://d2xsxph8kpxj0f.cloudfront.net/310519663249654411/F8HMyeb57QrcRFk5aLbTxw/testimonial-5-david-rothstein-hZHexXmq4THhuwU5nXYaMJ.webp" 
+                  alt="David Rothstein" 
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <p className="text-sm text-muted-foreground mb-4 leading-relaxed italic">
+                "Guardian understands development complexity at a level few firms do. Their strategic advisory prevented $8M in potential capital inefficiency on our infrastructure project."
+              </p>
+              <h3 className="font-semibold text-primary">David Rothstein</h3>
+              <p className="text-xs text-accent uppercase tracking-wider">Development Investor</p>
+              <p className="text-xs text-muted-foreground mt-1">$56M Deployed</p>
             </div>
           </div>
         </div>
