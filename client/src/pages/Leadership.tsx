@@ -182,56 +182,104 @@ export default function Leadership() {
         </div>
       </section>
 
-      {/* Strategic Advisors */}
+      {/* Ecosystem & Technology Leadership */}
       <section className="py-24 bg-secondary text-white">
+        <div className="container">
+          <div className="mb-16">
+            <span className="text-accent font-mono uppercase tracking-widest text-sm block mb-3">Technology & Platform Leadership</span>
+            <h2 className="font-heading text-4xl">SiteSyncOS™ Development & Ecosystem Integration</h2>
+            <p className="text-gray-300 font-light mt-4 max-w-2xl">
+              SiteSyncOS™, Guardian's unified execution platform, was developed by Ahmad Muhammad and is powered by Collective AI. The platform integrates spatial intelligence, real-time capital tracking, and AI-driven project management to transform development concepts into institutionally structured investment opportunities.
+            </p>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+            <div className="p-8 border border-white/10 hover:border-accent transition-colors">
+              <h3 className="font-heading text-2xl text-white mb-4">Ahmad Muhammad</h3>
+              <p className="text-gray-300 font-light text-sm mb-4">Lead Developer, SiteSyncOS™</p>
+              <p className="text-gray-300 font-light text-sm leading-relaxed mb-4">
+                Director of Development at Guardian Development Group, Ahmad leads platform architecture, capital structuring, and institutional integration. His multidisciplinary background spanning engineering, manufacturing, and project management enables SiteSyncOS™ to bridge technical feasibility with financial performance.
+              </p>
+              <div className="border-t border-white/10 pt-4">
+                <p className="text-xs font-mono uppercase tracking-widest text-accent mb-2">Core Expertise</p>
+                <ul className="space-y-2 text-gray-300 font-light text-sm">
+                  <li>• Real estate development strategy & execution</li>
+                  <li>• Capital stack design & institutional structuring</li>
+                  <li>• Renewable energy & microgrid integration</li>
+                  <li>• Risk management & operational alignment</li>
+                </ul>
+              </div>
+            </div>
+            <div className="p-8 border border-white/10 hover:border-accent transition-colors">
+              <h3 className="font-heading text-2xl text-white mb-4">Powered by Collective AI</h3>
+              <p className="text-gray-300 font-light text-sm mb-4">Analytical Intelligence & Feasibility Modeling</p>
+              <p className="text-gray-300 font-light text-sm leading-relaxed mb-4">
+                Collective AI provides the analytical backbone for SiteSyncOS™, delivering feasibility modeling, risk assessment, and cross-sector data integration. This partnership ensures every development opportunity is validated through rigorous, data-driven analysis before institutional capital commitment.
+              </p>
+              <div className="border-t border-white/10 pt-4">
+                <p className="text-xs font-mono uppercase tracking-widest text-accent mb-2">Capabilities</p>
+                <ul className="space-y-2 text-gray-300 font-light text-sm">
+                  <li>• Multi-dimensional feasibility analysis</li>
+                  <li>• Real-time financial modeling</li>
+                  <li>• Risk assessment & mitigation frameworks</li>
+                  <li>• Cross-sector data integration</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Strategic Advisors */}
+      <section className="py-24 bg-primary text-white">
         <div className="container">
           <div className="mb-16">
             <span className="text-accent font-mono uppercase tracking-widest text-sm block mb-3">Strategic Partners</span>
             <h2 className="font-heading text-4xl">Institutional Advisory Network</h2>
             <p className="text-gray-300 font-light mt-4 max-w-2xl">
-              Guardian collaborates with specialized advisory firms and strategic partners who bring complementary expertise in urban development, capital structuring, public-private partnerships, and international development.
+              Guardian operates within a disciplined, multi-layered development ecosystem. Each partner brings specialized expertise to transform early-stage concepts into institutionally structured, technically validated, and financially viable investment opportunities.
             </p>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+            <div className="p-8 border border-white/10 hover:border-accent transition-colors">
+              <h3 className="font-heading text-xl text-white mb-3">Business Development Concepts (BDC)</h3>
+              <p className="text-gray-300 font-light text-sm mb-3">Led by Arthur Fayne Sr.</p>
+              <p className="text-gray-300 font-light text-sm leading-relaxed">Focuses on capital structuring, institutional engagement, and preparation of development opportunities for financing. BDC ensures every project is positioned for optimal capital stack design and investor alignment.</p>
+            </div>
+            <div className="p-8 border border-white/10 hover:border-accent transition-colors">
+              <h3 className="font-heading text-xl text-white mb-3">RRG / EnerGenius</h3>
+              <p className="text-gray-300 font-light text-sm mb-3">Technical Infrastructure & Renewable Energy</p>
+              <p className="text-gray-300 font-light text-sm leading-relaxed">Provides technical infrastructure architecture, renewable energy system integration, and resilient infrastructure design. Ensures developments are technically sound and future-ready.</p>
+            </div>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="p-8 border border-white/10 hover:border-accent transition-colors">
-              <h3 className="font-heading text-2xl text-white mb-4">Strategic Advisory Relationships</h3>
-              <ul className="space-y-3 text-gray-300 font-light text-sm">
-                <li className="flex items-start gap-2">
-                  <span className="text-accent mt-1.5 h-1.5 w-1.5 bg-accent rounded-full block flex-shrink-0"></span>
-                  <span>Urban development and redevelopment strategy</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-accent mt-1.5 h-1.5 w-1.5 bg-accent rounded-full block flex-shrink-0"></span>
-                  <span>Capital stack design and fund development</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-accent mt-1.5 h-1.5 w-1.5 bg-accent rounded-full block flex-shrink-0"></span>
-                  <span>Public-private partnership structuring</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-accent mt-1.5 h-1.5 w-1.5 bg-accent rounded-full block flex-shrink-0"></span>
-                  <span>International development perspective</span>
-                </li>
-              </ul>
+              <h3 className="font-heading text-xl text-white mb-4">Guardian Development Group (GDG)</h3>
+              <p className="text-gray-300 font-light text-sm mb-3">Execution & Operational Delivery</p>
+              <p className="text-gray-300 font-light text-sm leading-relaxed mb-4">Oversees development execution, project management, and operational asset delivery. GDG transforms structured capital and technical validation into realized, performing assets.</p>
+              <div className="border-t border-white/10 pt-4">
+                <p className="text-xs font-mono uppercase tracking-widest text-accent mb-2">Process Flow</p>
+                <p className="text-gray-300 font-light text-sm">Concept → Capital Structuring → Technical Validation → Operational Execution</p>
+              </div>
             </div>
             <div className="p-8 border border-white/10 hover:border-accent transition-colors">
-              <h3 className="font-heading text-2xl text-white mb-4">Complementary Expertise</h3>
-              <ul className="space-y-3 text-gray-300 font-light text-sm">
+              <h3 className="font-heading text-xl text-white mb-4">Integrated Ecosystem Approach</h3>
+              <p className="text-gray-300 font-light text-sm leading-relaxed">This disciplined, multi-layered structure ensures every development opportunity is:</p>
+              <ul className="space-y-2 text-gray-300 font-light text-sm mt-4">
                 <li className="flex items-start gap-2">
                   <span className="text-accent mt-1.5 h-1.5 w-1.5 bg-accent rounded-full block flex-shrink-0"></span>
-                  <span>Community-serving development and social impact</span>
+                  <span>Structured for institutional capital alignment</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-accent mt-1.5 h-1.5 w-1.5 bg-accent rounded-full block flex-shrink-0"></span>
-                  <span>Mixed-use and infill development execution</span>
+                  <span>Validated through rigorous analysis</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-accent mt-1.5 h-1.5 w-1.5 bg-accent rounded-full block flex-shrink-0"></span>
-                  <span>Affordable and workforce housing platforms</span>
+                  <span>Designed with technical excellence</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-accent mt-1.5 h-1.5 w-1.5 bg-accent rounded-full block flex-shrink-0"></span>
-                  <span>Institutional capital alignment and compliance</span>
+                  <span>Executed with operational discipline</span>
                 </li>
               </ul>
             </div>
