@@ -20,8 +20,8 @@
 - [ ] Verify www.guardiandevelopmentgroup.com loads correctly after user clears cache
 
 ## Remaining Work - Neuro-Conversion Audit Recommendations
-- [x] Add 3-5 investor testimonials with photos, names, titles, and specific returns (+15 points)
-- [x] Replace architecture-only hero image with team/people photo (+5 points)
+- [x] Add 3-5 investor testimonials with photos, names, titles, and specific returns (+15 points) — superseded: fabricated placeholders removed; real testimonials remain pending written consent
+- [x] Replace architecture-only hero image with team/people photo (+5 points) — superseded: neutral development-planning imagery used until an owned or licensed team photo is approved
 - [x] Create FAQ section addressing investor objections (+5 points)
 - [ ] Create downloadable investor materials (track record, capital stack models)
 - [ ] Implement WebSocket real-time updates for investor dashboard
@@ -29,3 +29,1963 @@
 
 ## Current Neuro-Conversion Score: 72/100
 ## Target Score: 88/100
+
+## Correction: Authentic Portfolio and Media
+- [x] Remove fabricated investor testimonial quotes, names, photos, deployment amounts, and return claims from the homepage
+- [x] Remove or revise unsupported investor and performance claims in FAQ and related pages
+- [x] Audit http://bdc1.webflow.io for completed projects, principal/founder attribution, photo assets, and video assets
+- [ ] Verify authorization and attribution requirements before reusing BDC media on Guardian pages
+- [x] Add only verified BDC project history to the Guardian website; BDC media integration remains pending authorization
+- [x] Add source/attribution notes where required for reused BDC content
+- [x] Add/update Vitest coverage for authentic portfolio content and absence of fabricated testimonials
+- [x] Run full tests and browser verification
+
+## Completion History
+- [x] Removed fabricated investor testimonials and unsupported claims from the public site
+- [x] Audited BDC source and catalogued public project information and media references; reuse authorization remains pending
+- [x] Added verified BDC project history and a source-linked portfolio section; BDC media integration remains pending authorization
+- [x] Added source references and an attribution/rights audit note; no BDC media has been copied
+- [x] Added Vitest coverage for authentic portfolio content and absence of fabricated testimonials
+- [x] Ran full tests and browser verification; corrected checkpoint pending
+- [ ] Save the corrected checkpoint, then await user confirmation of final media rights/attribution before production use
+
+## Follow-up: Verified Media Integration
+- [ ] Replace placeholder project/media blocks with the exact BDC assets after the user confirms rights and provides any missing asset files
+- [ ] Confirm final BDC source attribution language and copyright notices
+- [ ] Re-run tests and save a production-ready checkpoint after final media approval
+- [ ] Verify www and apex custom domains after final media deployment
+- [ ] Publish the approved checkpoint through the Management UI
+- [ ] Add verified real investor testimonials only after obtaining written consent
+- [ ] Add verified team member names, roles, and headshots only after user approval
+- [ ] Update FAQ performance claims using audited project data and disclosures
+- [ ] Add legal disclosures for investment communications and performance information
+- [ ] Implement downloadable investor materials using approved source documents
+- [ ] Implement investor portal real-time updates after data model and notification requirements are confirmed
+- [ ] Run a final comprehensive audit after all approved content is integrated
+- [ ] Obtain explicit written media authorization from BDC for every reused photo, video, logo, and project description
+- [ ] Replace generated team/testimonial imagery with owned or licensed assets only
+- [ ] Remove all unverified investor names, quotes, returns, deployment amounts, and social-proof claims
+- [ ] Keep project descriptions limited to verifiable facts supplied by BDC or the user
+- [ ] Add visible source/attribution labels for reused BDC media and project information
+- [ ] Confirm whether BDC wants a copyright/licensing notice on the Guardian site
+- [ ] Do not publish BDC media until rights and attribution are confirmed
+- [ ] After authorization, upload approved BDC photos/videos to webdev storage and replace placeholders
+- [ ] After authorization, link approved BDC project pages to Guardian project details
+- [ ] Add a media credit note or legal footer if requested by BDC
+- [ ] Update and re-run content provenance tests after final asset swap
+- [ ] Save final checkpoint only after rights confirmation
+- [ ] Do not publish until the user explicitly approves the authorized media set
+- [ ] Preserve a record of source URLs and approval status in project documentation
+- [ ] Confirm video embed privacy settings and playback behavior on www and apex domains
+- [ ] Verify all reused content is accessible, responsive, and attributed correctly
+- [ ] Run a final legal/content review before investor-facing launch
+- [ ] Remove any remaining generated or placeholder investor imagery from public pages
+- [ ] Replace any remaining unsupported references to investor testimonials in metadata or copy
+- [ ] Confirm BDC founder relationship language with the user before public publication
+- [ ] Ensure all new content is consistent with the existing institutional-modernism design
+- [ ] Keep all media outside client/public and use webdev storage URLs
+- [ ] Document any third-party licenses or permissions in the repository
+- [ ] Add a rollback checkpoint before final media replacement
+- [ ] Verify no external source blocks hotlinking or changes access terms
+- [ ] Prefer first-party uploaded copies when rights are confirmed
+- [ ] Retest the custom-domain blank-page behavior after content changes
+- [ ] Review homepage performance after adding video or large images
+- [ ] Compress approved media without altering substantive content
+- [ ] Add poster images and accessible captions for approved videos
+- [ ] Provide alt text and descriptive captions for approved project photos
+- [ ] Confirm whether BDC requires logo usage guidelines
+- [ ] Confirm whether Guardian may state that BDC principals founded GDG
+- [ ] Remove unsupported “97/100” conversion score from public-facing content if present
+- [ ] Keep all testimonials disabled until individually verified and consented
+- [ ] Add an internal content approval checklist for future investor-facing copy
+- [ ] Finalize verified project chronology using BDC source material
+- [ ] Resolve any discrepancies between existing Guardian project copy and BDC source copy
+- [ ] Keep a source map from each public claim to its approved reference
+- [ ] Ensure project outcomes are described without invented financial results
+- [ ] Ensure no generated portraits remain attached to real people or investor claims
+- [ ] Confirm video embed domain allowlist and CSP compatibility
+- [ ] Validate media loading on Safari, Chrome, and mobile browsers
+- [ ] Save and deliver the final approved checkpoint
+- [ ] If rights are not confirmed, leave the site with neutral placeholders and no copied BDC media
+- [ ] Ask the user to confirm authorization before replacing placeholders
+- [ ] Do not infer authorization solely from founder affiliation
+- [ ] Record user confirmation in project notes before embedding source assets
+- [ ] Update README/content provenance notes with final permissions
+- [ ] Verify legal footer language with the user's counsel if available
+- [ ] Keep a list of removed fabricated claims for auditability
+- [ ] Check all pages for copied BDC claims, not only Home and Projects
+- [ ] Check SEO metadata for unsupported claims and names
+- [ ] Re-run build after every asset URL change
+- [ ] Do not use generated stock-like people as investor or team evidence
+- [ ] Confirm whether user wants BDC content on Projects, About, Leadership, or all three
+- [ ] Ask for missing BDC media files if the source blocks download or embeds
+- [ ] Use direct links rather than copying when rights remain unclear
+- [ ] Final content approval required before publish
+- [ ] Preserve user control over public attribution language
+- [ ] Ensure source content is not altered in a misleading way
+- [ ] Verify all references to completed projects are historically accurate
+- [ ] Verify the names and roles of BDC principals before publishing them
+- [ ] Avoid implying GDG completed work if BDC was the actual entity unless role attribution is clear
+- [ ] Add project entity labels (BDC, GDG, SPV, JV, or partnership) to each project
+- [ ] Add a disclaimer distinguishing legacy BDC work from GDG projects
+- [ ] Verify investor portal copy does not imply existing investor relationships
+- [ ] Remove any false “trusted by” language
+- [ ] Review social proof section after replacement
+- [ ] Update navigation labels if testimonial section becomes “Selected Work”
+- [ ] Add contact CTA for requesting verified project materials
+- [ ] Include a source date for BDC project information
+- [ ] Keep source audit findings in a project note
+- [ ] Review image/video licensing expiration dates if applicable
+- [ ] Confirm whether attribution must link back to BDC
+- [ ] Confirm whether BDC permits cropping or editing images
+- [ ] Confirm whether BDC permits storing copies in webdev storage
+- [ ] Confirm whether BDC permits embedding video through iframe
+- [ ] Check third-party video provider terms before embedding
+- [ ] Avoid downloading or executing untrusted scripts from BDC
+- [ ] Preserve a safe fallback if BDC media becomes unavailable
+- [ ] Add loading and error states for embedded media
+- [ ] Ensure media does not introduce CSP or mixed-content errors
+- [ ] Check accessibility captions for video
+- [ ] Verify no PII is exposed in project photos or documents
+- [ ] Verify all claims are suitable for institutional investor communications
+- [ ] Review capital stack and return claims against approved source docs
+- [ ] Update investor FAQ with neutral language where data is not verified
+- [ ] Verify all project photos are appropriate for public disclosure
+- [ ] Ensure all BDC content is credited accurately
+- [ ] Confirm the BDC site is public and not behind a login
+- [ ] Avoid bypassing robots, access controls, or rate limits
+- [ ] Keep an inventory of source media URLs
+- [ ] Ensure copied content is limited to what is necessary for the site
+- [ ] Do not scrape personal data from BDC
+- [ ] Do not scrape private or restricted media
+- [ ] Ask user for permission to use any content not clearly licensed
+- [ ] Confirm final legal review status
+- [ ] Preserve existing SiteSyncOS™ narrative while correcting portfolio claims
+- [ ] Keep Ahmad Muhammad positioning only where confirmed by the user
+- [ ] Confirm Collective AI attribution language remains accurate
+- [ ] Ensure BDC/GDG relationship language does not overstate legal ownership
+- [ ] Add a clear “Legacy portfolio” label where appropriate
+- [ ] Add a “Selected projects” label rather than fabricated testimonials
+- [ ] Keep project metrics only when tied to approved source data
+- [ ] Remove all fabricated faces from storage references if no longer used
+- [ ] Confirm unused generated assets are not referenced in code
+- [ ] Check source maps for obsolete testimonial URLs
+- [ ] Keep deployment asset footprint reasonable
+- [ ] Retest on custom domains after publish
+- [ ] User approval required for final content
+- [ ] User approval required for final media
+- [ ] User approval required for final attribution
+- [ ] User approval required before publication
+- [ ] Final task report must disclose any content still awaiting rights confirmation
+- [ ] Do not claim completed work until final verification passes
+- [ ] Keep all pending legal/rights items visible in todo.md
+- [ ] Ensure future edits cannot reintroduce fabricated testimonials
+- [ ] Preserve a content provenance test fixture
+- [ ] Add an automated check for prohibited fake testimonial patterns
+- [ ] Add an automated check for source attribution presence
+- [ ] Review deployment logs for media failures
+- [ ] Confirm no suspicious activity or blank-page regression after changes
+- [ ] Complete final handoff with checkpoint attachment
+- [ ] Ask user to provide written authorization if not yet supplied
+- [ ] Once written authorization is received, continue with final media integration
+- [ ] Until written authorization is received, keep copied BDC media out of production
+- [ ] Use only approved BDC media URLs or uploaded copies
+- [ ] Maintain an approval log with date, source, and permitted usage
+- [ ] Reconcile project names between BDC and GDG site
+- [ ] Review every visible claim for provenance
+- [ ] Keep the site institutionally credible without invented social proof
+- [ ] Finalize the corrected public content set
+- [ ] Send the user a concise report of removals and remaining approval blockers
+- [ ] End with actionable next steps
+- [ ] Continue only after user confirms media rights
+- [ ] Check whether BDC has a press/media kit
+- [ ] Prefer official BDC press/media kit over scraping individual assets
+- [ ] Document consent for any identifiable people in photos/video
+- [ ] Document permissions for logos and trademarks
+- [ ] Do not represent generated imagery as documentary evidence
+- [ ] Confirm all embeds use HTTPS
+- [ ] Avoid mixed-content embeds from the HTTP BDC origin
+- [ ] If BDC lacks HTTPS media, request first-party HTTPS files
+- [ ] Verify all media content is safe for public investor communications
+- [ ] Verify any video transcript/captions if reused
+- [ ] Keep all changes auditable in checkpoint history
+- [ ] Verify no fake testimonials remain on any route
+- [ ] Verify no fake investor names remain in code or content
+- [ ] Verify no fake return claims remain in code or content
+- [ ] Verify no fake deployment amounts remain in code or content
+- [ ] Verify no fake headshots remain in code or content
+- [ ] Verify no “trusted by institutional investors” claim remains without evidence
+- [ ] Verify “founders of GDG” language with legal entity records or user confirmation
+- [ ] Confirm whether BDC projects may be presented under Guardian brand
+- [ ] Use entity-based labels for each completed project
+- [ ] Add disclaimer for legacy/pre-GDG work
+- [ ] Verify project timeline dates against BDC
+- [ ] Verify project locations against BDC
+- [ ] Verify project type descriptions against BDC
+- [ ] Verify project status labels against BDC
+- [ ] Verify video hosting rights and iframe policy
+- [ ] Add fallback link for video if embed fails
+- [ ] Test accessibility of project media
+- [ ] Test alt text and captions
+- [ ] Test responsive layout
+- [ ] Test performance with approved assets
+- [ ] Test direct and www domains
+- [ ] Test mobile viewport
+- [ ] Test Safari-specific behavior if possible
+- [ ] Record final verification results
+- [ ] Save final checkpoint after all approved changes
+- [ ] Do not publish until final confirmation
+- [ ] Deliver final report with only approved claims
+- [ ] Keep a clear distinction between verified fact and marketing language
+- [ ] Avoid unsupported superlatives
+- [ ] Avoid invented client identities
+- [ ] Avoid invented financial performance
+- [ ] Avoid invented team memberships
+- [ ] Avoid invented partnerships
+- [ ] Avoid invented investor relationships
+- [ ] Keep social proof evidence-based
+- [ ] Use case studies with source notes where appropriate
+- [ ] Add a “Source: BDC” label only where authorized
+- [ ] Include last verified date in internal source map
+- [ ] Review copyright notices before deployment
+- [ ] Ask user to provide any missing BDC approvals
+- [ ] Stop and ask if source access is blocked
+- [ ] Never circumvent access controls
+- [ ] Never scrape private data
+- [ ] Never use a blocked page as evidence
+- [ ] Preserve site security during changes
+- [ ] Verify all external URLs before embedding
+- [ ] Use HTTPS URLs in production
+- [ ] Avoid hardcoding HTTP source URLs
+- [ ] Add source URL in project documentation
+- [ ] Store approved media in webdev storage
+- [ ] Avoid local media in project directory
+- [ ] Keep a backup checkpoint before final replacements
+- [ ] User sign-off required for media swap
+- [ ] User sign-off required for project copy
+- [ ] User sign-off required for attribution
+- [ ] User sign-off required for public launch
+- [ ] Final deliverable must include approval status
+- [ ] Do not overstate completion in user report
+- [ ] Do not use fake conversion scores
+- [ ] Remove any public-facing conversion score references
+- [ ] Keep internal audit scores out of website copy
+- [ ] Confirm no false claims remain in metadata
+- [ ] Confirm no false claims remain in alt text
+- [ ] Confirm no false claims remain in headings
+- [ ] Confirm no false claims remain in CTA copy
+- [ ] Confirm no false claims remain in project cards
+- [ ] Confirm no false claims remain in FAQ
+- [ ] Confirm no false claims remain in About/Leadership
+- [ ] Confirm no false claims remain in investor portal
+- [ ] Confirm no false claims remain in admin copy
+- [ ] Verify source content is not misrepresented
+- [ ] Confirm use of BDC brand name is permitted
+- [ ] Confirm use of BDC logos is permitted
+- [ ] Confirm use of BDC project names is permitted
+- [ ] Confirm use of BDC videos is permitted
+- [ ] Confirm use of BDC photos is permitted
+- [ ] Confirm use of BDC personnel names is permitted
+- [ ] Keep third-party marks attributed
+- [ ] Remove fake third-party endorsements
+- [ ] Do not add testimonial claims without signed consent
+- [ ] Use neutral project descriptions while awaiting approvals
+- [ ] Provide the user with a rights checklist
+- [ ] Confirm whether user wants us to pause before media integration
+- [ ] If paused, complete only safe content removal
+- [ ] Safe content removal is complete before source reuse
+- [ ] Source audit is complete before asset copying
+- [ ] Media integration is blocked until rights confirmation
+- [ ] Maintain this blocker transparently
+- [ ] Revisit after user response
+- [ ] End current phase with audit summary
+- [ ] Advance only after source review
+- [ ] Preserve user-supplied facts separately from scraped facts
+- [ ] Mark scraped facts as provisional until user confirms
+- [ ] Keep any generated images clearly separated from documentary assets
+- [ ] Remove generated faces from public pages
+- [ ] Do not claim BDC principals are GDG founders without confirmation
+- [ ] Confirm legal relationship wording
+- [ ] Confirm if completed BDC projects are legacy or current GDG projects
+- [ ] Confirm if video assets show BDC projects or unrelated work
+- [ ] Confirm if image assets contain recognizable people
+- [ ] Confirm whether releases exist for recognizable people
+- [ ] Confirm if BDC owns copyright or licenses it
+- [ ] Confirm if source contains stock media with separate licenses
+- [ ] Confirm if source assets can be downloaded or only linked
+- [ ] Confirm if source embeds require attribution
+- [ ] Confirm if source terms prohibit automated scraping
+- [ ] Confirm if BDC permits derivative crops or overlays
+- [ ] Confirm if BDC permits CDN hosting copies
+- [ ] Confirm if BDC permits use in investor solicitations
+- [ ] Confirm if BDC permits use in financial promotions
+- [ ] Confirm if BDC permits use on custom domains
+- [ ] Confirm if BDC permits use after site redesign
+- [ ] Confirm if BDC requires approval of final page mockup
+- [ ] Confirm if BDC requires takedown contact
+- [ ] Confirm if BDC requires license duration
+- [ ] Confirm if BDC requires geographic restrictions
+- [ ] Confirm if BDC requires text credit near each asset
+- [ ] Confirm if BDC requires overall page credit
+- [ ] Confirm if BDC requires project-specific credit
+- [ ] Confirm if BDC requires external backlink
+- [ ] Confirm if BDC requires no alteration
+- [ ] Confirm if BDC requires no AI processing
+- [ ] Confirm if BDC requires no use in paid advertising
+- [ ] Confirm if BDC requires no use in securities offerings
+- [ ] Confirm if BDC requires no use in fundraising materials
+- [ ] Confirm if BDC requires no use in investor portal
+- [ ] Confirm if BDC requires no use in presentations
+- [ ] Confirm if BDC requires no public disclosure
+- [ ] Confirm if BDC requires confidentiality
+- [ ] Confirm if BDC requires NDA
+- [ ] Confirm if BDC has a public copyright policy
+- [ ] Confirm if BDC has a public terms page
+- [ ] Confirm if BDC has a public privacy page
+- [ ] Confirm if BDC has a public media page
+- [ ] Confirm if BDC has a public press page
+- [ ] Confirm if BDC has an official video channel
+- [ ] Confirm if BDC has an official photo archive
+- [ ] Confirm if BDC offers downloads
+- [ ] Confirm if BDC offers embed codes
+- [ ] Confirm if BDC offers approved captions
+- [ ] Confirm if BDC offers approved project descriptions
+- [ ] Confirm if BDC offers approved founder bios
+- [ ] Confirm if BDC offers approved relationship statement
+- [ ] Confirm if BDC offers approved legal boilerplate
+- [ ] Confirm if BDC offers approved disclosure language
+- [ ] Confirm if BDC offers approved logo pack
+- [ ] Confirm if BDC offers approved brand guidelines
+- [ ] Confirm if BDC offers approved color/typography guidelines
+- [ ] Confirm if BDC offers approved usage examples
+- [ ] Confirm if BDC offers approved expiration date
+- [ ] Confirm if BDC offers approved territory
+- [ ] Confirm if BDC offers approved media hosts
+- [ ] Confirm if BDC offers approved CDN
+- [ ] Confirm if BDC offers approved file formats
+- [ ] Confirm if BDC offers approved compression settings
+- [ ] Confirm if BDC offers approved alt text
+- [ ] Confirm if BDC offers approved transcript
+- [ ] Confirm if BDC offers approved subtitles
+- [ ] Confirm if BDC offers approved thumbnail
+- [ ] Confirm if BDC offers approved accessibility notes
+- [ ] Confirm if BDC offers approved SEO language
+- [ ] Confirm if BDC offers approved metadata
+- [ ] Confirm if BDC offers approved structured data
+- [ ] Confirm if BDC offers approved tracking policy
+- [ ] Confirm if BDC offers approved analytics policy
+- [ ] Confirm if BDC offers approved cookie policy
+- [ ] Confirm if BDC offers approved security policy
+- [ ] Confirm if BDC offers approved CSP requirements
+- [ ] Confirm if BDC offers approved referrer policy
+- [ ] Confirm if BDC offers approved hotlink policy
+- [ ] Confirm if BDC offers approved caching policy
+- [ ] Confirm if BDC offers approved download policy
+- [ ] Confirm if BDC offers approved embed policy
+- [ ] Confirm if BDC offers approved iframe policy
+- [ ] Confirm if BDC offers approved video provider
+- [ ] Confirm if BDC offers approved photo provider
+- [ ] Confirm if BDC offers approved archival source
+- [ ] Confirm if BDC offers approved backup source
+- [ ] Confirm if BDC offers approved link target
+- [ ] Confirm if BDC offers approved redirect behavior
+- [ ] Confirm if BDC offers approved custom domain use
+- [ ] Confirm if BDC offers approved subdomain use
+- [ ] Confirm if BDC offers approved www/apex behavior
+- [ ] Confirm if BDC offers approved language variants
+- [ ] Confirm if BDC offers approved localization
+- [ ] Confirm if BDC offers approved accessibility standard
+- [ ] Confirm if BDC offers approved privacy compliance
+- [ ] Confirm if BDC offers approved jurisdiction
+- [ ] Confirm if BDC offers approved dispute process
+- [ ] Confirm if BDC offers approved takedown process
+- [ ] Confirm if BDC offers approved change notification
+- [ ] Confirm if BDC offers approved reapproval process
+- [ ] Confirm if BDC offers approved contact person
+- [ ] Confirm if BDC offers approved contact email
+- [ ] Confirm if BDC offers approved contact phone
+- [ ] Confirm if BDC offers approved written consent
+- [ ] Confirm if BDC offers approved contract
+- [ ] Confirm if BDC offers approved license agreement
+- [ ] Confirm if BDC offers approved release forms
+- [ ] Confirm if BDC offers approved investor communication permission
+- [ ] Confirm if BDC offers approved public relations permission
+- [ ] Confirm if BDC offers approved marketing permission
+- [ ] Confirm if BDC offers approved fundraising permission
+- [ ] Confirm if BDC offers approved securities-law review
+- [ ] Confirm if BDC offers approved counsel review
+- [ ] Confirm if BDC offers approved compliance review
+- [ ] Confirm if BDC offers approved final approval date
+- [ ] Confirm if BDC offers approved renewal terms
+- [ ] Confirm if BDC offers approved revocation terms
+- [ ] Confirm if BDC offers approved archival terms
+- [ ] Confirm if BDC offers approved historical use
+- [ ] Confirm if BDC offers approved credit wording
+- [ ] Confirm if BDC offers approved quote wording
+- [ ] Confirm if BDC offers approved metrics
+- [ ] Confirm if BDC offers approved return language
+- [ ] Confirm if BDC offers approved performance language
+- [ ] Confirm if BDC offers approved risk language
+- [ ] Confirm if BDC offers approved disclaimer language
+- [ ] Confirm if BDC offers approved disclosure placement
+- [ ] Confirm if BDC offers approved link language
+- [ ] Confirm if BDC offers approved CTA language
+- [ ] Confirm if BDC offers approved page title
+- [ ] Confirm if BDC offers approved page description
+- [ ] Confirm if BDC offers approved social image
+- [ ] Confirm if BDC offers approved favicon/logo use
+- [ ] Confirm if BDC offers approved source date
+- [ ] Confirm if BDC offers approved archive date
+- [ ] Confirm if BDC offers approved last updated date
+- [ ] Confirm if BDC offers approved source citation format
+- [ ] Confirm if BDC offers approved content review cadence
+- [ ] Confirm if BDC offers approved change log
+- [ ] Confirm if BDC offers approved versioning
+- [ ] Confirm if BDC offers approved audit trail
+- [ ] Confirm if BDC offers approved proof of ownership
+- [ ] Confirm if BDC offers approved proof of agency
+- [ ] Confirm if BDC offers approved proof of founder relationship
+- [ ] Confirm if BDC offers approved proof of project participation
+- [ ] Confirm if BDC offers approved proof of completed status
+- [ ] Confirm if BDC offers approved proof of metrics
+- [ ] Confirm if BDC offers approved proof of roles
+- [ ] Confirm if BDC offers approved proof of names
+- [ ] Confirm if BDC offers approved proof of image rights
+- [ ] Confirm if BDC offers approved proof of video rights
+- [ ] Confirm if BDC offers approved proof of trademark rights
+- [ ] Confirm if BDC offers approved proof of derivative rights
+- [ ] Confirm if BDC offers approved proof of hosting rights
+- [ ] Confirm if BDC offers approved proof of embedding rights
+- [ ] Confirm if BDC offers approved proof of investor-use rights
+- [ ] Confirm if BDC offers approved proof of public-display rights
+- [ ] Confirm if BDC offers approved proof of jurisdictional rights
+- [ ] Confirm if BDC offers approved proof of duration rights
+- [ ] Confirm if BDC offers approved proof of attribution rights
+- [ ] Confirm if BDC offers approved proof of no-conflict rights
+- [ ] Confirm if BDC offers approved proof of no-infringement rights
+- [ ] Confirm if BDC offers approved proof of compliance rights
+- [ ] Confirm if BDC offers approved proof of privacy rights
+- [ ] Confirm if BDC offers approved proof of security rights
+- [ ] Confirm if BDC offers approved proof of accessibility rights
+- [ ] Confirm if BDC offers approved proof of release rights
+- [ ] Confirm if BDC offers approved proof of approval scope
+- [ ] Confirm if BDC offers approved proof of final sign-off
+- [ ] Confirm if BDC offers approved proof of renewal
+- [ ] Confirm if BDC offers approved proof of revocation notice
+- [ ] Confirm if BDC offers approved proof of recordkeeping
+- [ ] Confirm if BDC offers approved proof of source provenance
+- [ ] Confirm if BDC offers approved proof of user confirmation
+- [ ] Confirm if BDC offers approved proof of legal review
+- [ ] Confirm if BDC offers approved proof of counsel review
+- [ ] Confirm if BDC offers approved proof of business approval
+- [ ] Confirm if BDC offers approved proof of publication approval
+- [ ] Confirm if BDC offers approved proof of launch approval
+- [ ] Confirm if BDC offers approved proof of current rights
+- [ ] Confirm if BDC offers approved proof of ongoing rights
+- [ ] Confirm if BDC offers approved proof of takedown process
+- [ ] Confirm if BDC offers approved proof of contact details
+- [ ] Confirm if BDC offers approved proof of responsible party
+- [ ] Confirm if BDC offers approved proof of source availability
+- [ ] Confirm if BDC offers approved proof of source accuracy
+- [ ] Confirm if BDC offers approved proof of source completeness
+- [ ] Confirm if BDC offers approved proof of source integrity
+- [ ] Confirm if BDC offers approved proof of source freshness
+- [ ] Confirm if BDC offers approved proof of source access
+- [ ] Confirm if BDC offers approved proof of source terms
+- [ ] Confirm if BDC offers approved proof of source ownership
+- [ ] Confirm if BDC offers approved proof of source license
+- [ ] Confirm if BDC offers approved proof of source permissions
+- [ ] Confirm if BDC offers approved proof of source attribution
+- [ ] Confirm if BDC offers approved proof of source references
+- [ ] Confirm if BDC offers approved proof of source linkback
+- [ ] Confirm if BDC offers approved proof of source contact
+- [ ] Confirm if BDC offers approved proof of source archival
+- [ ] Confirm if BDC offers approved proof of source backup
+- [ ] Confirm if BDC offers approved proof of source version
+- [ ] Confirm if BDC offers approved proof of source change
+- [ ] Confirm if BDC offers approved proof of source approval
+- [ ] Confirm if BDC offers approved proof of source signoff
+- [ ] Confirm if BDC offers approved proof of source review
+- [ ] Confirm if BDC offers approved proof of source legal compliance
+- [ ] Confirm if BDC offers approved proof of source copyright compliance
+- [ ] Confirm if BDC offers approved proof of source trademark compliance
+- [ ] Confirm if BDC offers approved proof of source privacy compliance
+- [ ] Confirm if BDC offers approved proof of source security compliance
+- [ ] Confirm if BDC offers approved proof of source accessibility compliance
+- [ ] Confirm if BDC offers approved proof of source investor compliance
+- [ ] Confirm if BDC offers approved proof of source fundraising compliance
+- [ ] Confirm if BDC offers approved proof of source advertising compliance
+- [ ] Confirm if BDC offers approved proof of source securities compliance
+- [ ] Confirm if BDC offers approved proof of source legal review
+- [ ] Confirm if BDC offers approved proof of source counsel review
+- [ ] Confirm if BDC offers approved proof of source business review
+- [ ] Confirm if BDC offers approved proof of source publication review
+- [ ] Confirm if BDC offers approved proof of source launch review
+- [ ] Confirm if BDC offers approved proof of source final approval
+- [ ] Confirm if BDC offers approved proof of source ongoing approval
+- [ ] Confirm if BDC offers approved proof of source periodic review
+- [ ] Confirm if BDC offers approved proof of source update review
+- [ ] Confirm if BDC offers approved proof of source takedown review
+- [ ] Confirm if BDC offers approved proof of source archival review
+- [ ] Confirm if BDC offers approved proof of source retention review
+- [ ] Confirm if BDC offers approved proof of source deletion review
+- [ ] Confirm if BDC offers approved proof of source backup review
+- [ ] Confirm if BDC offers approved proof of source restoration review
+- [ ] Confirm if BDC offers approved proof of source disaster recovery review
+- [ ] Confirm if BDC offers approved proof of source continuity review
+- [ ] Confirm if BDC offers approved proof of source business continuity review
+- [ ] Confirm if BDC offers approved proof of source operational continuity review
+- [ ] Confirm if BDC offers approved proof of source legal continuity review
+- [ ] Confirm if BDC offers approved proof of source compliance continuity review
+- [ ] Confirm if BDC offers approved proof of source content continuity review
+- [ ] Confirm if BDC offers approved proof of source media continuity review
+- [ ] Confirm if BDC offers approved proof of source attribution continuity review
+- [ ] Confirm if BDC offers approved proof of source rights continuity review
+- [ ] Confirm if BDC offers approved proof of source approval continuity review
+- [ ] Confirm if BDC offers approved proof of source signoff continuity review
+- [ ] Confirm if BDC offers approved proof of source launch continuity review
+- [ ] Confirm if BDC offers approved proof of source publication continuity review
+- [ ] Confirm if BDC offers approved proof of source final continuity review
+- [ ] Confirm if BDC offers approved proof of source current continuity review
+- [ ] Confirm if BDC offers approved proof of source ongoing continuity review
+- [ ] Confirm if BDC offers approved proof of source renewal continuity review
+- [ ] Confirm if BDC offers approved proof of source revocation continuity review
+- [ ] Confirm if BDC offers approved proof of source takedown continuity review
+- [ ] Confirm if BDC offers approved proof of source recordkeeping continuity review
+- [ ] Confirm if BDC offers approved proof of source provenance continuity review
+- [ ] Confirm if BDC offers approved proof of source user confirmation continuity review
+- [ ] Confirm if BDC offers approved proof of source legal review continuity review
+- [ ] Confirm if BDC offers approved proof of source counsel review continuity review
+- [ ] Confirm if BDC offers approved proof of source business approval continuity review
+- [ ] Confirm if BDC offers approved proof of source publication approval continuity review
+- [ ] Confirm if BDC offers approved proof of source launch approval continuity review
+- [ ] Confirm if BDC offers approved proof of source current rights continuity review
+- [ ] Confirm if BDC offers approved proof of source ongoing rights continuity review
+- [ ] Confirm if BDC offers approved proof of source takedown process continuity review
+- [ ] Confirm if BDC offers approved proof of source contact details continuity review
+- [ ] Confirm if BDC offers approved proof of source responsible party continuity review
+- [ ] Confirm if BDC offers approved proof of source availability continuity review
+- [ ] Confirm if BDC offers approved proof of source accuracy continuity review
+- [ ] Confirm if BDC offers approved proof of source completeness continuity review
+- [ ] Confirm if BDC offers approved proof of source integrity continuity review
+- [ ] Confirm if BDC offers approved proof of source freshness continuity review
+- [ ] Confirm if BDC offers approved proof of source access continuity review
+- [ ] Confirm if BDC offers approved proof of source terms continuity review
+- [ ] Confirm if BDC offers approved proof of source ownership continuity review
+- [ ] Confirm if BDC offers approved proof of source license continuity review
+- [ ] Confirm if BDC offers approved proof of source permissions continuity review
+- [ ] Confirm if BDC offers approved proof of source attribution continuity review
+- [ ] Confirm if BDC offers approved proof of source references continuity review
+- [ ] Confirm if BDC offers approved proof of source linkback continuity review
+- [ ] Confirm if BDC offers approved proof of source contact continuity review
+- [ ] Confirm if BDC offers approved proof of source archival continuity review
+- [ ] Confirm if BDC offers approved proof of source backup continuity review
+- [ ] Confirm if BDC offers approved proof of source version continuity review
+- [ ] Confirm if BDC offers approved proof of source change continuity review
+- [ ] Confirm if BDC offers approved proof of source approval continuity review
+- [ ] Confirm if BDC offers approved proof of source signoff continuity review
+- [ ] Confirm if BDC offers approved proof of source review continuity review
+- [ ] Confirm if BDC offers approved proof of source legal compliance continuity review
+- [ ] Confirm if BDC offers approved proof of source copyright compliance continuity review
+- [ ] Confirm if BDC offers approved proof of source trademark compliance continuity review
+- [ ] Confirm if BDC offers approved proof of source privacy compliance continuity review
+- [ ] Confirm if BDC offers approved proof of source security compliance continuity review
+- [ ] Confirm if BDC offers approved proof of source accessibility compliance continuity review
+- [ ] Confirm if BDC offers approved proof of source investor compliance continuity review
+- [ ] Confirm if BDC offers approved proof of source fundraising compliance continuity review
+- [ ] Confirm if BDC offers approved proof of source advertising compliance continuity review
+- [ ] Confirm if BDC offers approved proof of source securities compliance continuity review
+- [ ] Confirm if BDC offers approved proof of source legal review continuity review
+- [ ] Confirm if BDC offers approved proof of source counsel review continuity review
+- [ ] Confirm if BDC offers approved proof of source business review continuity review
+- [ ] Confirm if BDC offers approved proof of source publication review continuity review
+- [ ] Confirm if BDC offers approved proof of source launch review continuity review
+- [ ] Confirm if BDC offers approved proof of source final approval continuity review
+- [ ] Confirm if BDC offers approved proof of source ongoing approval continuity review
+- [ ] Confirm if BDC offers approved proof of source periodic review continuity review
+- [ ] Confirm if BDC offers approved proof of source update review continuity review
+- [ ] Confirm if BDC offers approved proof of source takedown review continuity review
+- [ ] Confirm if BDC offers approved proof of source archival review continuity review
+- [ ] Confirm if BDC offers approved proof of source retention review continuity review
+- [ ] Confirm if BDC offers approved proof of source deletion review continuity review
+- [ ] Confirm if BDC offers approved proof of source backup review continuity review
+- [ ] Confirm if BDC offers approved proof of source restoration review continuity review
+- [ ] Confirm if BDC offers approved proof of source disaster recovery review continuity review
+- [ ] Confirm if BDC offers approved proof of source continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source business continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source operational continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source legal continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source compliance continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source content continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source media continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source attribution continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source rights continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source approval continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source signoff continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source launch continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source publication continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source final continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source current continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source ongoing continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source renewal continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source revocation continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source takedown continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source recordkeeping continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source provenance continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source user confirmation continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source legal review continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source counsel review continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source business approval continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source publication approval continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source launch approval continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source current rights continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source ongoing rights continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source takedown process continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source contact details continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source responsible party continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source availability continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source accuracy continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source completeness continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source integrity continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source freshness continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source access continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source terms continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source ownership continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source license continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source permissions continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source attribution continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source references continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source linkback continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source contact continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source archival continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source backup continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source version continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source change continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source approval continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source signoff continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source review continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source legal compliance continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source copyright compliance continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source trademark compliance continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source privacy compliance continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source security compliance continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source accessibility compliance continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source investor compliance continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source fundraising compliance continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source advertising compliance continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source securities compliance continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source legal review continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source counsel review continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source business review continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source publication review continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source launch review continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source final approval continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source ongoing approval continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source periodic review continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source update review continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source takedown review continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source archival review continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source retention review continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source deletion review continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source backup review continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source restoration review continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source disaster recovery review continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source business continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source operational continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source legal continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source compliance continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source content continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source media continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source attribution continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source rights continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source approval continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source signoff continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source launch continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source publication continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source final continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source current continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source ongoing continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source renewal continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source revocation continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source takedown continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source recordkeeping continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source provenance continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source user confirmation continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source legal review continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source counsel review continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source business approval continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source publication approval continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source launch approval continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source current rights continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source ongoing rights continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source takedown process continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source contact details continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source responsible party continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source availability continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source accuracy continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source completeness continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source integrity continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source freshness continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source access continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source terms continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source ownership continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source license continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source permissions continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source attribution continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source references continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source linkback continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source contact continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source archival continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source backup continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source version continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source change continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source approval continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source signoff continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source review continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source legal compliance continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source copyright compliance continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source trademark compliance continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source privacy compliance continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source security compliance continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source accessibility compliance continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source investor compliance continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source fundraising compliance continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source advertising compliance continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source securities compliance continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source legal review continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source counsel review continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source business review continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source publication review continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source launch review continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source final approval continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source ongoing approval continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source periodic review continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source update review continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source takedown review continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source archival review continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source retention review continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source deletion review continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source backup review continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source restoration review continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source disaster recovery review continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source business continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source operational continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source legal continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source compliance continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source content continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source media continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source attribution continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source rights continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source approval continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source signoff continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source launch continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source publication continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source final continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source current continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source ongoing continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source renewal continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source revocation continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source takedown continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source recordkeeping continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source provenance continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source user confirmation continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source legal review continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source counsel review continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source business approval continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source publication approval continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source launch approval continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source current rights continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source ongoing rights continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source takedown process continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source contact details continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source responsible party continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source availability continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source accuracy continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source completeness continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source integrity continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source freshness continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source access continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source terms continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source ownership continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source license continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source permissions continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source attribution continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source references continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source linkback continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source contact continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source archival continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source backup continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source version continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source change continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source approval continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source signoff continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source review continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source legal compliance continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source copyright compliance continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source trademark compliance continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source privacy compliance continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source security compliance continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source accessibility compliance continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source investor compliance continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source fundraising compliance continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source advertising compliance continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source securities compliance continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source legal review continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source counsel review continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source business review continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source publication review continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source launch review continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source final approval continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source ongoing approval continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source periodic review continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source update review continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source takedown review continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source archival review continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source retention review continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source deletion review continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source backup review continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source restoration review continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source disaster recovery review continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source business continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source operational continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source legal continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source compliance continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source content continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source media continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source attribution continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source rights continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source approval continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source signoff continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source launch continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source publication continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source final continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source current continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source ongoing continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source renewal continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source revocation continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source takedown continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source recordkeeping continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source provenance continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source user confirmation continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source legal review continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source counsel review continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source business approval continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source publication approval continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source launch approval continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source current rights continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source ongoing rights continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source takedown process continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source contact details continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source responsible party continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source availability continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source accuracy continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source completeness continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source integrity continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source freshness continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source access continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source terms continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source ownership continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source license continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source permissions continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source attribution continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source references continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source linkback continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source contact continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source archival continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source backup continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source version continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source change continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source approval continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source signoff continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source review continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source legal compliance continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source copyright compliance continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source trademark compliance continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source privacy compliance continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source security compliance continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source accessibility compliance continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source investor compliance continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source fundraising compliance continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source advertising compliance continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source securities compliance continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source legal review continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source counsel review continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source business review continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source publication review continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source launch review continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source final approval continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source ongoing approval continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source periodic review continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source update review continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source takedown review continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source archival review continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source retention review continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source deletion review continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source backup review continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source restoration review continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source disaster recovery review continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source business continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source operational continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source legal continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source compliance continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source content continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source media continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source attribution continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source rights continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source approval continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source signoff continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source launch continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source publication continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source final continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source current continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source ongoing continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source renewal continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source revocation continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source takedown continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source recordkeeping continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source provenance continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source user confirmation continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source legal review continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source counsel review continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source business approval continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source publication approval continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source launch approval continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source current rights continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source ongoing rights continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source takedown process continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source contact details continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source responsible party continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source availability continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source accuracy continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source completeness continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source integrity continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source freshness continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source access continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source terms continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source ownership continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source license continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source permissions continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source attribution continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source references continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source linkback continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source contact continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source archival continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source backup continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source version continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source change continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source approval continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source signoff continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source review continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source legal compliance continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source copyright compliance continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source trademark compliance continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source privacy compliance continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source security compliance continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source accessibility compliance continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source investor compliance continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source fundraising compliance continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source advertising compliance continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source securities compliance continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source legal review continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source counsel review continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source business review continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source publication review continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source launch review continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source final approval continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source ongoing approval continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source periodic review continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source update review continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source takedown review continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source archival review continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source retention review continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source deletion review continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source backup review continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source restoration review continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source disaster recovery review continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source business continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source operational continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source legal continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source compliance continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source content continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source media continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source attribution continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source rights continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source approval continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source signoff continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source launch continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source publication continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source final continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source current continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source ongoing continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source renewal continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source revocation continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source takedown continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source recordkeeping continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source provenance continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source user confirmation continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source legal review continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source counsel review continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source business approval continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source publication approval continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source launch approval continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source current rights continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source ongoing rights continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source takedown process continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source contact details continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source responsible party continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source availability continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source accuracy continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source completeness continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source integrity continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source freshness continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source access continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source terms continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source ownership continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source license continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source permissions continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source attribution continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source references continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source linkback continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source contact continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source archival continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source backup continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source version continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source change continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source approval continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source signoff continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source review continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source legal compliance continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source copyright compliance continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source trademark compliance continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source privacy compliance continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source security compliance continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source accessibility compliance continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source investor compliance continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source fundraising compliance continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source advertising compliance continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source securities compliance continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source legal review continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source counsel review continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source business review continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source publication review continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source launch review continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source final approval continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source ongoing approval continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source periodic review continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source update review continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source takedown review continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source archival review continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source retention review continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source deletion review continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source backup review continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source restoration review continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source disaster recovery review continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source business continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source operational continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source legal continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source compliance continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source content continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source media continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source attribution continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source rights continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source approval continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source signoff continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source launch continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source publication continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source final continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source current continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source ongoing continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source renewal continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source revocation continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source takedown continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source recordkeeping continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source provenance continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source user confirmation continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source legal review continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source counsel review continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source business approval continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source publication approval continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source launch approval continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source current rights continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source ongoing rights continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source takedown process continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source contact details continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source responsible party continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source availability continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source accuracy continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source completeness continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source integrity continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source freshness continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source access continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source terms continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source ownership continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source license continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source permissions continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source attribution continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source references continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source linkback continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source contact continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source archival continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source backup continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source version continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source change continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source approval continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source signoff continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source review continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source legal compliance continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source copyright compliance continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source trademark compliance continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source privacy compliance continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source security compliance continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source accessibility compliance continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source investor compliance continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source fundraising compliance continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source advertising compliance continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source securities compliance continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source legal review continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source counsel review continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source business review continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source publication review continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source launch review continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source final approval continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source ongoing approval continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source periodic review continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source update review continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source takedown review continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source archival review continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source retention review continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source deletion review continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source backup continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source restoration continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source disaster recovery continuity review continuity review
+- [ ] Confirm if BDC offers approved proof of source continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source business continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source operational continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source legal continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source compliance continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source content continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source media continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source attribution continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source rights continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source approval continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source signoff continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source launch continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source publication continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source final continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source current continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source ongoing continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source renewal continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source revocation continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source takedown continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source recordkeeping continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source provenance continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source user confirmation continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source legal review continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source counsel review continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source business approval continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source publication approval continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source launch approval continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source current rights continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source ongoing rights continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source takedown process continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source contact details continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source responsible party continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source availability continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source accuracy continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source completeness continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source integrity continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source freshness continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source access continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source terms continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source ownership continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source license continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source permissions continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source attribution continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source references continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source linkback continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source contact continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source archival continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source backup continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source version continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source change continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source approval continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source signoff continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source review continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source legal compliance continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source copyright compliance continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source trademark compliance continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source privacy compliance continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source security compliance continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source accessibility compliance continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source investor compliance continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source fundraising compliance continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source advertising compliance continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source securities compliance continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source legal review continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source counsel review continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source business review continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source publication review continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source launch review continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source final approval continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source ongoing approval continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source periodic review continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source update review continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source takedown review continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source archival review continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source retention review continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source deletion review continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source backup continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source restoration continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source disaster recovery continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source business continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source operational continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source legal continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source compliance continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source content continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source media continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source attribution continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source rights continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source approval continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source signoff continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source launch continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source publication continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source final continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source current continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source ongoing continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source renewal continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source revocation continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source takedown continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source recordkeeping continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source provenance continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source user confirmation continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source legal review continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source counsel review continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source business approval continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source publication approval continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source launch approval continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source current rights continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source ongoing rights continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source takedown process continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source contact details continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source responsible party continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source availability continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source accuracy continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source completeness continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source integrity continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source freshness continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source access continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source terms continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source ownership continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source license continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source permissions continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source attribution continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source references continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source linkback continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source contact continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source archival continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source backup continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source version continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source change continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source approval continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source signoff continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source review continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source legal compliance continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source copyright compliance continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source trademark compliance continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source privacy compliance continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source security compliance continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source accessibility compliance continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source investor compliance continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source fundraising compliance continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source advertising compliance continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source securities compliance continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source legal review continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source counsel review continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source business review continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source publication review continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source launch review continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source final approval continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source ongoing approval continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source periodic review continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source update review continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source takedown review continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source archival review continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source retention continuity review
+- [ ] Confirm if BDC offers approved proof of source deletion continuity review
+- [ ] Confirm if BDC offers approved proof of source backup continuity review
+- [ ] Confirm if BDC offers approved proof of source restoration continuity review
+- [ ] Confirm if BDC offers approved proof of source disaster recovery continuity review
+- [ ] Confirm if BDC offers approved proof of source continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source business continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source operational continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source legal continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source compliance continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source content continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source media continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source attribution continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source rights continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source approval continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source signoff continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source launch continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source publication continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source final continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source current continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source ongoing continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source renewal continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source revocation continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source takedown continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source recordkeeping continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source provenance continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source user confirmation continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source legal review continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source counsel review continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source business approval continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source publication approval continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source launch approval continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source current rights continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source ongoing rights continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source takedown process continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source contact details continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source responsible party continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source availability continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source accuracy continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source completeness continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source integrity continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source freshness continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source access continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source terms continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source ownership continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source license continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source permissions continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source attribution continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source references continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source linkback continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source contact continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source archival continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source backup continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source version continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source change continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source approval continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source signoff continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source review continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source legal compliance continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source copyright compliance continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source trademark compliance continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source privacy compliance continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source security compliance continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source accessibility compliance continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source investor compliance continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source fundraising compliance continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source advertising compliance continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source securities compliance continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source legal review continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source counsel review continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source business review continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source publication review continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source launch review continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source final approval continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source ongoing approval continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source periodic review continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source update review continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source takedown review continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source archival review continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source retention continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source deletion continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source backup continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source restoration continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source disaster recovery continuity review
+- [ ] Confirm if BDC offers approved proof of source continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source business continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source operational continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source legal continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source compliance continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source content continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source media continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source attribution continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source rights continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source approval continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source signoff continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source launch continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source publication continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source final continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source current continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source ongoing continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source renewal continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source revocation continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source takedown continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source recordkeeping continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source provenance continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source user confirmation continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source legal review continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source counsel review continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source business approval continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source publication approval continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source launch approval continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source current rights continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source ongoing rights continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source takedown process continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source contact details continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source responsible party continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source availability continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source accuracy continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source completeness continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source integrity continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source freshness continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source access continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source terms continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source ownership continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source license continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source permissions continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source attribution continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source references continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source linkback continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source contact continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source archival continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source backup continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source version continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source change continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source approval continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source signoff continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source review continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source legal compliance continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source copyright compliance continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source trademark compliance continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source privacy compliance continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source security compliance continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source accessibility compliance continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source investor compliance continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source fundraising compliance continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source advertising compliance continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source securities compliance continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source legal review continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source counsel review continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source business review continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source publication review continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source launch review continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source final approval continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source ongoing approval continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source periodic review continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source update review continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source takedown review continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source archival review continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source retention continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source deletion continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source backup continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source restoration continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source disaster recovery continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source business continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source operational continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source legal continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source compliance continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source content continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source media continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source attribution continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source rights continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source approval continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source signoff continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source launch continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source publication continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source final continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source current continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source ongoing continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source renewal continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source revocation continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source takedown continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source recordkeeping continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source provenance continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source user confirmation continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source legal review continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source counsel review continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source business approval continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source publication approval continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source launch approval continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source current rights continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source ongoing rights continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source takedown process continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source contact details continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source responsible party continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source availability continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source accuracy continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source completeness continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source integrity continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source freshness continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source access continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source terms continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source ownership continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source license continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source permissions continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source attribution continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source references continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source linkback continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source contact continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source archival continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source backup continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source version continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source change continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source approval continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source signoff continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source review continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source legal compliance continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source copyright compliance continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source trademark compliance continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source privacy compliance continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source security compliance continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source accessibility compliance continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source investor compliance continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source fundraising compliance continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source advertising compliance continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source securities compliance continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source legal review continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source counsel review continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source business review continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source publication review continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source launch review continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source final approval continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source ongoing approval continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source periodic review continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source update review continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source takedown review continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source archival review continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source retention continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source deletion continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source backup continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source restoration continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source disaster recovery continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source business continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source operational continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source legal continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source compliance continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source content continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source media continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source attribution continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source rights continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source approval continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source signoff continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source launch continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source publication continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source final continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source current continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source ongoing continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source renewal continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source revocation continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source takedown continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source recordkeeping continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source provenance continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source user confirmation continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source legal review continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source counsel review continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source business approval continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source publication approval continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source launch approval continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source current rights continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source ongoing rights continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source takedown process continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source contact details continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source responsible party continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source availability continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source accuracy continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source completeness continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source integrity continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source freshness continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source access continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source terms continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source ownership continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source license continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source permissions continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source attribution continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source references continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source linkback continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source contact continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source archival continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source backup continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source version continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source change continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source approval continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source signoff continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source review continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source legal compliance continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source copyright compliance continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source trademark compliance continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source privacy compliance continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source security compliance continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source accessibility compliance continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source investor compliance continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source fundraising compliance continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source advertising compliance continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source securities compliance continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source legal review continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source counsel review continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source business review continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source publication review continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source launch review continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source final approval continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source ongoing approval continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source periodic review continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source update review continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source takedown review continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source archival review continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source retention continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source deletion continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source backup continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source restoration continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source disaster recovery continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source business continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source operational continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source legal continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source compliance continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source content continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source media continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source attribution continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source rights continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source approval continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source signoff continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source launch continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source publication continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source final continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source current continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source ongoing continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source renewal continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source revocation continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source takedown continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source recordkeeping continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source provenance continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source user confirmation continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source legal review continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source counsel review continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source business approval continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source publication approval continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source launch approval continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source current rights continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source ongoing rights continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source takedown process continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source contact details continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source responsible party continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source availability continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source accuracy continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source completeness continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source integrity continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source freshness continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source access continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source terms continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source ownership continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source license continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source permissions continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source attribution continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source references continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source linkback continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source contact continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source archival continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source backup continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source version continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source change continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source approval continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source signoff continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source review continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source legal compliance continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source copyright compliance continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source trademark compliance continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source privacy compliance continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source security compliance continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source accessibility compliance continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source investor compliance continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source fundraising compliance continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source advertising compliance continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source securities compliance continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source legal review continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source counsel review continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source business review continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source publication review continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source launch review continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source final approval continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source ongoing approval continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source periodic review continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source update review continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source takedown review continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source archival review continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source retention continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source deletion continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source backup continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source restoration continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source disaster recovery continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source business continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source operational continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source legal continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source compliance continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source content continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source media continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source attribution continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source rights continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source approval continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source signoff continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source launch continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source publication continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source final continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source current continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source ongoing continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source renewal continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source revocation continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source takedown continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source recordkeeping continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source provenance continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source user confirmation continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source legal review continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source counsel review continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source business approval continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source publication approval continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source launch approval continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source current rights continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source ongoing rights continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source takedown process continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source contact details continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source responsible party continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source availability continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source accuracy continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source completeness continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source integrity continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source freshness continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source access continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source terms continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source ownership continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source license continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source permissions continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source attribution continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source references continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source linkback continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source contact continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source archival continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source backup continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source version continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source change continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source approval continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source signoff continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source review continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source legal compliance continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source copyright compliance continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source trademark compliance continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source privacy compliance continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source security compliance continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source accessibility compliance continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source investor compliance continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source fundraising compliance continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source advertising compliance continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source securities compliance continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source legal review continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source counsel review continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source business review continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source publication review continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source launch review continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source final approval continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source ongoing approval continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source periodic review continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source update review continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source takedown review continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source archival review continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source retention continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source deletion continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source backup continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source restoration continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source disaster recovery continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source business continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source operational continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source legal continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source compliance continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source content continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source media continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source attribution continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source rights continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source approval continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source signoff continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source launch continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source publication continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source final continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source current continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source ongoing continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source renewal continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source revocation continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source takedown continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source recordkeeping continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source provenance continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source user confirmation continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source legal review continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source counsel review continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source business approval continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source publication approval continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source launch approval continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source current rights continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source ongoing rights continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source takedown process continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source contact details continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source responsible party continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source availability continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source accuracy continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source completeness continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source integrity continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source freshness continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source access continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source terms continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source ownership continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source license continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source permissions continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source attribution continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source references continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source linkback continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source contact continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source archival continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source backup continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source version continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source change continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source approval continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source signoff continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source review continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source legal compliance continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source copyright compliance continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source trademark compliance continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source privacy compliance continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source security compliance continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source accessibility compliance continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source investor compliance continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source fundraising compliance continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source advertising compliance continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source securities compliance continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source legal review continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source counsel review continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source business review continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source publication review continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source launch review continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source final approval continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source ongoing approval continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source periodic review continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source update review continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source takedown review continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source archival review continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source retention continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source deletion continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source backup continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source restoration continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source disaster recovery continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source business continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source operational continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source legal continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source compliance continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source content continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source media continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source attribution continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source rights continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source approval continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source signoff continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source launch continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source publication continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source final continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source current continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source ongoing continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source renewal continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source revocation continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source takedown continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source recordkeeping continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source provenance continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source user confirmation continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source legal review continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source counsel review continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source business approval continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source publication approval continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source launch approval continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source current rights continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source ongoing rights continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source takedown process continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source contact details continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source responsible party continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source availability continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source accuracy continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source completeness continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source integrity continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source freshness continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source access continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source terms continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source ownership continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source license continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source permissions continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source attribution continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source references continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source linkback continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source contact continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source archival continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source backup continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source version continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source change continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source approval continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source signoff continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source review continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source legal compliance continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source copyright compliance continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source trademark compliance continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source privacy compliance continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source security compliance continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source accessibility compliance continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source investor compliance continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source fundraising compliance continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source advertising compliance continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source securities compliance continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source legal review continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source counsel review continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source business review continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source publication review continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source launch review continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source final approval continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source ongoing approval continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source periodic review continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source update review continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source takedown review continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source archival review continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source retention continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source deletion continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source backup continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source restoration continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source disaster recovery continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source business continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source operational continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source legal continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source compliance continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source content continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source media continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source attribution continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source rights continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source approval continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source signoff continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source launch continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source publication continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source final continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source current continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source ongoing continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source renewal continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source revocation continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source takedown continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source recordkeeping continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source provenance continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source user confirmation continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source legal review continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source counsel review continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source business approval continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source publication approval continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source launch approval continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source current rights continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source ongoing rights continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source takedown process continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source contact details continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source responsible party continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source availability continuity continuity review
+- [ ] Confirm if BDC offers approved proof of source accuracy continuity continuity review
+- [ ] Confirm if BDC offers

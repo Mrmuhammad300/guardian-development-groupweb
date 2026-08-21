@@ -36,7 +36,7 @@ const faqItems: FAQItem[] = [
   {
     category: "process",
     question: "What is Guardian's role in project execution?",
-    answer: "Guardian provides owner's representation and development leadership throughout the project lifecycle. We manage all vendor relationships, budget governance, timeline accountability, and regulatory compliance. Our team includes experienced development professionals who have delivered 140+ projects totaling $2.4B+ in capital. We don't delegate execution—we own it, which is why our investors see predictable outcomes.",
+    answer: "Guardian provides owner's representation and development leadership throughout the project lifecycle. We manage vendor relationships, budget governance, timeline accountability, and regulatory coordination. Our approach is to define the project entity, responsibilities, reporting cadence, and decision rights before execution begins. Specific experience and project outcomes are shared during diligence only when supported by approved source materials.",
   },
   {
     category: "governance",
@@ -56,7 +56,7 @@ const faqItems: FAQItem[] = [
   {
     category: "returns",
     question: "What are typical return targets?",
-    answer: "Return targets vary by project risk profile and structure. For core/core-plus projects, we target 12-16% IRR with 1.2-1.5x equity multiple. For value-add opportunities, we target 18-24% IRR with 1.5-2.0x multiple. For opportunistic plays, returns can exceed 25% IRR. We're transparent about return assumptions upfront and provide detailed sensitivity analysis showing how returns respond to key variables like construction costs, lease-up timing, and exit cap rates.",
+    answer: "Return expectations are opportunity-specific and depend on project structure, risk, financing, timing, operating assumptions, and exit conditions. Guardian presents assumptions, sensitivities, fees, conflicts, and risks in approved diligence and offering materials rather than publishing generalized targets on this website. No return is guaranteed, and past performance is not indicative of future results.",
   },
   {
     category: "returns",
@@ -66,7 +66,7 @@ const faqItems: FAQItem[] = [
   {
     category: "returns",
     question: "What is your track record on returns?",
-    answer: "Our portfolio has delivered an average 19.2% IRR across 140+ completed projects totaling $2.4B+ in deployed capital. Our institutional investors have achieved returns ranging from 14% to 28% depending on project structure and market conditions. We maintain detailed performance documentation and are happy to discuss specific project outcomes with qualified investors. Our 40+ years of combined team experience translates to consistent execution and predictable returns.",
+    answer: "Guardian does not publish a generalized return figure or imply that every project in a referenced legacy portfolio was completed by GDG. Return expectations are specific to each opportunity, structure, risk profile, and approved offering materials. Qualified parties may request project-level documentation during diligence, subject to applicable confidentiality, securities, and compliance requirements. Past performance is not indicative of future results.",
   },
   {
     category: "investment",

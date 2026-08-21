@@ -139,9 +139,9 @@ export default function Expertise() {
             <div className="relative h-[600px] bg-secondary p-8 flex items-center justify-center">
                 <div className="absolute inset-0 border border-white/10 m-4"></div>
                 <div className="text-center">
-                    <span className="block text-accent font-mono text-6xl mb-4">100%</span>
-                    <span className="block text-white font-heading text-2xl uppercase tracking-widest">Transparency</span>
-                    <span className="block text-gray-500 text-sm mt-4 max-w-xs mx-auto">Our clients have 24/7 access to project financials, schedules, and risk logs.</span>
+                    <span className="block text-accent font-mono text-4xl mb-4">OPEN BOOK</span>
+                    <span className="block text-white font-heading text-2xl uppercase tracking-widest">Transparency by Design</span>
+                    <span className="block text-gray-500 text-sm mt-4 max-w-xs mx-auto">Approved stakeholders receive reporting access aligned to the project entity, governance terms, and disclosure requirements.</span>
                 </div>
             </div>
           </div>

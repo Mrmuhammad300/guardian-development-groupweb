@@ -112,14 +112,14 @@ export default function Projects() {
       market: "Cleveland, Ohio",
       example: "Hough Area Partners in Progress (500+ homes)",
       sources: ["Public subsidy", "Construction debt", "Permanent financing", "Homebuyer equity"],
-      outcome: "500+ homes delivered, neighborhood stabilization"
+      outcome: "Historical urban revitalization reference; verify project documentation during diligence"
     },
     {
       title: "Private Rehab & Resale Model",
       market: "Greater Cleveland",
       example: "60+ Single-Family Rehabilitations",
       sources: ["Sponsor equity", "Acquisition/rehab financing", "Sale or refinance"],
-      outcome: "60+ rehabilitated homes, market-rate returns"
+      outcome: "Historical residential rehabilitation reference; no public return claim"
     },
     {
       title: "Community Anchor Development",
@@ -146,8 +146,8 @@ export default function Projects() {
 
   const experienceSummary = [
     { metric: "40+", label: "Years in Urban Development" },
-    { metric: "500+", label: "Homes Delivered (Hough Revitalization)" },
-    { metric: "60+", label: "Homes Privately Rehabilitated" },
+    { metric: "LEGACY", label: "Hough Revitalization Reference" },
+    { metric: "LEGACY", label: "Private Rehabilitation Reference" },
     { metric: "Multiple", label: "Community-Serving Anchor Projects" },
     { metric: "Domestic & International", label: "Development Experience" },
     { metric: "Complex", label: "Capital Structures & P3 Models" }
@@ -167,11 +167,11 @@ export default function Projects() {
         <div className="container relative z-10">
           <span className="text-accent font-mono uppercase tracking-widest text-sm block mb-4">Portfolio</span>
           <h1 className="font-heading text-5xl md:text-7xl mb-8 leading-tight">
-            Delivered <span className="text-accent">Results</span>.<br />
-            Built <span className="text-white/80">Communities</span>.
+            Selected <span className="text-accent">Work</span>.<br />
+            Entity-Based <span className="text-white/80">Execution</span>.
           </h1>
           <p className="text-xl text-gray-300 max-w-2xl font-light leading-relaxed">
-            Over 40 years of development expertise across urban revitalization, community-serving anchors, and complex mixed-use projects. 500+ homes delivered. Countless lives improved.
+            This page distinguishes legacy principal experience and publicly documented BDC initiatives from current Guardian mandates. Project entity, role, completion status, and outcomes should be confirmed through approved diligence materials.
           </p>
         </div>
       </section>
@@ -182,9 +182,9 @@ export default function Projects() {
           <div className="mb-16">
             <span className="text-primary/60 font-mono uppercase tracking-widest text-sm block mb-3">Featured Work</span>
             <h2 className="font-heading text-4xl text-primary">Signature Projects & Initiatives</h2>
-            <p className="text-muted-foreground font-light mt-4 max-w-2xl">
-              Representative projects demonstrating our approach to community-serving development, complex capital structuring, and lasting impact.
-            </p>
+              <p className="text-muted-foreground font-light mt-4 max-w-2xl">
+                Representative legacy and BDC-referenced initiatives demonstrating community-serving development, complex capital structuring, and entity-based execution. Public descriptions are not a representation that every initiative was completed by GDG.
+              </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

@@ -50,9 +50,9 @@ export default function Leadership() {
   ];
 
   const trackRecord = [
-    { metric: "$30M+", label: "Real Estate Projects Developed & Managed" },
-    { metric: "500+", label: "Homes Delivered Through Urban Revitalization" },
-    { metric: "60+", label: "Private Residential Rehabilitations" },
+    { metric: "PROJECT-SPECIFIC", label: "Real Estate Development Scope" },
+    { metric: "LEGACY PORTFOLIO", label: "Urban Revitalization Work" },
+    { metric: "LEGACY PORTFOLIO", label: "Private Residential Rehabilitation" },
     { metric: "40+", label: "Years of Combined Development Experience" },
     { metric: "Multiple", label: "Community-Serving Anchor Developments" },
     { metric: "Domestic & International", label: "Development Platforms & Expertise" }
@@ -242,7 +242,7 @@ export default function Leadership() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
             <div className="p-8 border border-white/10 hover:border-accent transition-colors">
               <h3 className="font-heading text-xl text-white mb-3">Business Development Concepts (BDC)</h3>
-              <p className="text-gray-300 font-light text-sm mb-3">Led by Arthur Fayne Sr.</p>
+              <p className="text-gray-300 font-light text-sm mb-3">Principal-led strategic advisory network</p>
               <p className="text-gray-300 font-light text-sm leading-relaxed">Focuses on capital structuring, institutional engagement, and preparation of development opportunities for financing. BDC ensures every project is positioned for optimal capital stack design and investor alignment.</p>
             </div>
             <div className="p-8 border border-white/10 hover:border-accent transition-colors">

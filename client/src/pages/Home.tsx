@@ -15,8 +15,8 @@ export default function Home() {
         {/* Background Image with Overlay */}
         <div className="absolute inset-0 z-0">
           <img 
-            src="https://d2xsxph8kpxj0f.cloudfront.net/310519663249654411/F8HMyeb57QrcRFk5aLbTxw/hero-team-photo-9wTvRAb79446tWw8XZAmGD.webp" 
-            alt="Guardian Development Group Team" 
+            src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663249654411/AhuotoaGdPharxut.jpg" 
+            alt="Urban development planning and project coordination" 
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-primary/60 mix-blend-multiply"></div>
@@ -63,13 +63,13 @@ export default function Home() {
                 <div className="h-2 w-2 bg-green-500 rounded-full animate-pulse"></div>
               </div>
               <div className="space-y-4 font-mono text-xs text-gray-400">
-                <div className="flex justify-between">
-                  <span>CAPITAL DEPLOYED</span>
-                  <span className="text-white">$2.4B+</span>
+                <div className="flex justify-between gap-4">
+                  <span>PORTFOLIO BASIS</span>
+                  <span className="text-white text-right">BDC SOURCE</span>
                 </div>
-                <div className="flex justify-between">
-                  <span>PROJECTS COMPLETED</span>
-                  <span className="text-white">140+</span>
+                <div className="flex justify-between gap-4">
+                  <span>PUBLIC RECORD</span>
+                  <span className="text-white text-right">SELECTED WORK</span>
                 </div>
                 <div className="flex justify-between">
                   <span>SECTORS</span>
@@ -278,102 +278,119 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Investor Testimonials Section */}
+      {/* Verified BDC Project Portfolio Showcase Section */}
       <section className="py-24 bg-white border-t border-border">
         <div className="container">
           <div className="mb-16 text-center">
-            <span className="text-accent font-mono uppercase tracking-widest text-sm block mb-4">Trusted by Institutional Investors</span>
-            <h2 className="font-heading text-4xl md:text-5xl text-primary mb-6">What Investors Say</h2>
-            <p className="text-xl text-muted-foreground max-w-2xl mx-auto font-light">
-              Guardian Development Group has delivered exceptional returns and transparency to leading institutional investors, family offices, and pension funds.
+            <span className="text-accent font-mono uppercase tracking-widest text-sm block mb-4">Track Record &amp; Foundation</span>
+            <h2 className="font-heading text-4xl md:text-5xl text-primary mb-6">Verified Project Portfolio</h2>
+            <p className="text-xl text-muted-foreground max-w-3xl mx-auto font-light leading-relaxed">
+              Guardian Development Group builds upon the foundational experience of Business Development Concepts (BDC), featuring verified urban development, commercial, and housing initiatives in Northeast Ohio.
             </p>
+            <div className="mt-4 inline-block bg-secondary/10 border border-secondary/20 px-4 py-2 text-xs font-mono text-secondary uppercase tracking-wider">
+              Source Reference: <a href="http://bdc1.webflow.io/development-and-management-projects" target="_blank" rel="noopener noreferrer" className="underline hover:text-accent">Business Development Concepts (BDC) Portfolio</a>
+            </div>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
-            {/* Testimonial 1 */}
-            <div className="flex flex-col items-center text-center">
-              <div className="w-32 h-32 mb-6 rounded-lg overflow-hidden border-2 border-accent/30 hover:border-accent transition-colors">
-                <img 
-                  src="https://d2xsxph8kpxj0f.cloudfront.net/310519663249654411/F8HMyeb57QrcRFk5aLbTxw/testimonial-1-michael-chen-Mp3YQ3SpiWGStQTjgeBHLz.webp" 
-                  alt="Michael Chen" 
-                  className="w-full h-full object-cover"
-                />
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {/* Project 1 */}
+            <div className="border border-border bg-white p-8 hover:border-accent transition-colors flex flex-col justify-between">
+              <div>
+                <span className="text-xs font-mono text-accent uppercase tracking-wider block mb-2">Commercial / Glenville</span>
+                <h3 className="font-heading text-2xl text-primary mb-3">The New Eastside Market, LLC</h3>
+                <p className="text-sm text-muted-foreground mb-6 leading-relaxed">
+                  A 20,000 sq. ft. fresh food grocery store facility in the historic Glenville neighborhood of Cleveland, featuring organic produce, community demonstration kitchen, cafe, and health programming in partnership with NEON and 4K Programs.
+                </p>
               </div>
-              <p className="text-sm text-muted-foreground mb-4 leading-relaxed italic">
-                "Guardian's disciplined approach to capital deployment and transparent reporting gave us confidence to commit $45M across three projects. Returns exceeded projections by 18%."
-              </p>
-              <h3 className="font-semibold text-primary">Michael Chen</h3>
-              <p className="text-xs text-accent uppercase tracking-wider">Institutional Investor</p>
-              <p className="text-xs text-muted-foreground mt-1">$45M Deployed</p>
+              <div className="pt-4 border-t border-border flex items-center justify-between text-xs font-mono text-muted-foreground">
+                <span>Location: Cleveland, OH</span>
+                <span className="text-accent">Verified BDC Project</span>
+              </div>
             </div>
 
-            {/* Testimonial 2 */}
-            <div className="flex flex-col items-center text-center">
-              <div className="w-32 h-32 mb-6 rounded-lg overflow-hidden border-2 border-accent/30 hover:border-accent transition-colors">
-                <img 
-                  src="https://d2xsxph8kpxj0f.cloudfront.net/310519663249654411/F8HMyeb57QrcRFk5aLbTxw/testimonial-2-sarah-martinez-RftZCoALdhcD8ibmDDoaUV.webp" 
-                  alt="Sarah Martinez" 
-                  className="w-full h-full object-cover"
-                />
+            {/* Project 2 */}
+            <div className="border border-border bg-white p-8 hover:border-accent transition-colors flex flex-col justify-between">
+              <div>
+                <span className="text-xs font-mono text-accent uppercase tracking-wider block mb-2">Mixed-Use / Healthcare</span>
+                <h3 className="font-heading text-2xl text-primary mb-3">Inter-Global Health &amp; Research Center</h3>
+                <p className="text-sm text-muted-foreground mb-6 leading-relaxed">
+                  A planned multi-use development spanning 2+ acres on East 55th Street, featuring 35 senior housing units (43,000 sq. ft.), a NEON Health and Wellness Center (45,000 sq. ft.), and a Center for Molecular Cancer Diagnostics (9,000 sq. ft.).
+                </p>
               </div>
-              <p className="text-sm text-muted-foreground mb-4 leading-relaxed italic">
-                "As a family office, we demanded institutional-grade governance. Guardian delivered exactly that—clear processes, real-time updates, and predictable outcomes."
-              </p>
-              <h3 className="font-semibold text-primary">Sarah Martinez</h3>
-              <p className="text-xs text-accent uppercase tracking-wider">Family Office Director</p>
-              <p className="text-xs text-muted-foreground mt-1">$32M Deployed</p>
+              <div className="pt-4 border-t border-border flex items-center justify-between text-xs font-mono text-muted-foreground">
+                <span>Location: Cleveland, OH</span>
+                <span className="text-accent">Verified BDC Project</span>
+              </div>
             </div>
 
-            {/* Testimonial 3 */}
-            <div className="flex flex-col items-center text-center">
-              <div className="w-32 h-32 mb-6 rounded-lg overflow-hidden border-2 border-accent/30 hover:border-accent transition-colors">
-                <img 
-                  src="https://d2xsxph8kpxj0f.cloudfront.net/310519663249654411/F8HMyeb57QrcRFk5aLbTxw/testimonial-3-james-richardson-GvEBBkXX4J9iSWKrbi9c5v.webp" 
-                  alt="James Richardson" 
-                  className="w-full h-full object-cover"
-                />
+            {/* Project 3 */}
+            <div className="border border-border bg-white p-8 hover:border-accent transition-colors flex flex-col justify-between">
+              <div>
+                <span className="text-xs font-mono text-accent uppercase tracking-wider block mb-2">Housing / Collinwood</span>
+                <h3 className="font-heading text-2xl text-primary mb-3">Veterans Housing Development</h3>
+                <p className="text-sm text-muted-foreground mb-6 leading-relaxed">
+                  Affordable living space for veterans and their families on East 152nd Street near NEON's Collinwood Health Center, comprising 10 renovated housing units (6 row houses and a 4-unit apartment building) with integrated health support services.
+                </p>
               </div>
-              <p className="text-sm text-muted-foreground mb-4 leading-relaxed italic">
-                "In 20 years of real estate investing, I've rarely seen execution this clean. Guardian's team managed complexity without compromise. 22% IRR on our mixed-use project."
-              </p>
-              <h3 className="font-semibold text-primary">James Richardson</h3>
-              <p className="text-xs text-accent uppercase tracking-wider">Real Estate Fund Manager</p>
-              <p className="text-xs text-muted-foreground mt-1">22% IRR Achieved</p>
+              <div className="pt-4 border-t border-border flex items-center justify-between text-xs font-mono text-muted-foreground">
+                <span>Location: Northeast Ohio</span>
+                <span className="text-accent">Verified BDC Project</span>
+              </div>
             </div>
 
-            {/* Testimonial 4 */}
-            <div className="flex flex-col items-center text-center">
-              <div className="w-32 h-32 mb-6 rounded-lg overflow-hidden border-2 border-accent/30 hover:border-accent transition-colors">
-                <img 
-                  src="https://d2xsxph8kpxj0f.cloudfront.net/310519663249654411/F8HMyeb57QrcRFk5aLbTxw/testimonial-4-patricia-nguyen-EwVTGQXy8tbHdP8QR3dzrh.webp" 
-                  alt="Patricia Nguyen" 
-                  className="w-full h-full object-cover"
-                />
+            {/* Project 4 */}
+            <div className="border border-border bg-white p-8 hover:border-accent transition-colors flex flex-col justify-between">
+              <div>
+                <span className="text-xs font-mono text-accent uppercase tracking-wider block mb-2">Community Development</span>
+                <h3 className="font-heading text-2xl text-primary mb-3">Incubator Kitchen</h3>
+                <p className="text-sm text-muted-foreground mb-6 leading-relaxed">
+                  Located at East 137th and St. Clair Avenue as an extension of the New Eastside Market, providing an industrial-grade facility and equipment for catering and culinary start-ups to launch their enterprises and connect with partners.
+                </p>
               </div>
-              <p className="text-sm text-muted-foreground mb-4 leading-relaxed italic">
-                "Pension fund fiduciary requirements are stringent. Guardian's audit trails, documentation, and governance structures exceeded every compliance checkpoint."
-              </p>
-              <h3 className="font-semibold text-primary">Patricia Nguyen</h3>
-              <p className="text-xs text-accent uppercase tracking-wider">Pension Fund Director</p>
-              <p className="text-xs text-muted-foreground mt-1">$78M Deployed</p>
+              <div className="pt-4 border-t border-border flex items-center justify-between text-xs font-mono text-muted-foreground">
+                <span>Location: Cleveland, OH</span>
+                <span className="text-accent">Verified BDC Project</span>
+              </div>
             </div>
 
-            {/* Testimonial 5 */}
-            <div className="flex flex-col items-center text-center">
-              <div className="w-32 h-32 mb-6 rounded-lg overflow-hidden border-2 border-accent/30 hover:border-accent transition-colors">
-                <img 
-                  src="https://d2xsxph8kpxj0f.cloudfront.net/310519663249654411/F8HMyeb57QrcRFk5aLbTxw/testimonial-5-david-rothstein-hZHexXmq4THhuwU5nXYaMJ.webp" 
-                  alt="David Rothstein" 
-                  className="w-full h-full object-cover"
-                />
+            {/* Project 5 */}
+            <div className="border border-border bg-white p-8 hover:border-accent transition-colors flex flex-col justify-between">
+              <div>
+                <span className="text-xs font-mono text-accent uppercase tracking-wider block mb-2">Master Planning / Euclid</span>
+                <h3 className="font-heading text-2xl text-primary mb-3">Providence Park Project</h3>
+                <p className="text-sm text-muted-foreground mb-6 leading-relaxed">
+                  Comprehensive development of 68 acres in Euclid, Ohio, featuring nearly 2 million square feet of construction including single-family and townhouse units, senior housing, a new church, health center, retail, and 12+ acres of preserved green space.
+                </p>
               </div>
-              <p className="text-sm text-muted-foreground mb-4 leading-relaxed italic">
-                "Guardian understands development complexity at a level few firms do. Their strategic advisory prevented $8M in potential capital inefficiency on our infrastructure project."
-              </p>
-              <h3 className="font-semibold text-primary">David Rothstein</h3>
-              <p className="text-xs text-accent uppercase tracking-wider">Development Investor</p>
-              <p className="text-xs text-muted-foreground mt-1">$56M Deployed</p>
+              <div className="pt-4 border-t border-border flex items-center justify-between text-xs font-mono text-muted-foreground">
+                <span>Location: Euclid, OH</span>
+                <span className="text-accent">Verified BDC Project</span>
+              </div>
             </div>
+
+            {/* Project 6 */}
+            <div className="border border-border bg-white p-8 hover:border-accent transition-colors flex flex-col justify-between">
+              <div>
+                <span className="text-xs font-mono text-accent uppercase tracking-wider block mb-2">Assisted Living</span>
+                <h3 className="font-heading text-2xl text-primary mb-3">NEON Assisted Living Center</h3>
+                <p className="text-sm text-muted-foreground mb-6 leading-relaxed">
+                  Proposed assisted living facility near the Chinatown neighborhood on Cleveland's Near East Side, designed to provide comprehensive individual assistance with activities of daily living (ADLs) in a supportive community setting.
+                </p>
+              </div>
+              <div className="pt-4 border-t border-border flex items-center justify-between text-xs font-mono text-muted-foreground">
+                <span>Location: Cleveland, OH</span>
+                <span className="text-accent">Verified BDC Project</span>
+              </div>
+            </div>
+          </div>
+
+          <div className="mt-12 text-center">
+            <a 
+              href="/projects" 
+              className="inline-flex items-center gap-2 px-8 py-4 bg-primary text-white font-semibold text-sm uppercase tracking-widest hover:bg-accent hover:text-primary transition-colors"
+            >
+              View Full Project Portfolio &amp; Capital Stacks <span className="text-accent">&rarr;</span>
+            </a>
           </div>
         </div>
       </section>

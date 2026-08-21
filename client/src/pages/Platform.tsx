@@ -6,7 +6,7 @@ export default function Platform() {
   const layers = [
     {
       name: "Business Development Concepts (BDC)",
-      leader: "Led by Arthur Fayne Sr.",
+      leader: "Principal-led strategic advisory network",
       icon: Zap,
       description: "Capital Structuring & Institutional Engagement",
       details: [

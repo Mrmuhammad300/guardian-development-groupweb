@@ -39,7 +39,7 @@ export default function About() {
                 <Zap className="h-10 w-10 text-accent flex-shrink-0 mt-1" />
                 <div>
                   <h3 className="font-heading text-2xl text-primary mb-1">Business Development Concepts (BDC)</h3>
-                  <p className="text-sm font-mono uppercase tracking-widest text-primary/60">Led by Arthur Fayne Sr.</p>
+                  <p className="text-sm font-mono uppercase tracking-widest text-primary/60">Strategic advisory foundation</p>
                 </div>
               </div>
               <p className="text-accent font-semibold mb-4">Capital Structuring & Institutional Engagement</p>
@@ -65,7 +65,7 @@ export default function About() {
                 <Brain className="h-10 w-10 text-blue-500 flex-shrink-0 mt-1" />
                 <div>
                   <h3 className="font-heading text-2xl text-primary mb-1">Collective AI</h3>
-                  <p className="text-sm font-mono uppercase tracking-widest text-primary/60">Led by Ahmad Muhammad & John-Ross Moyler</p>
+                  <p className="text-sm font-mono uppercase tracking-widest text-primary/60">SiteSyncOS™ lead: Ahmad Muhammad</p>
                 </div>
               </div>
               <p className="text-blue-600 font-semibold mb-4">Analytical Intelligence & Risk Assessment</p>
@@ -163,8 +163,8 @@ export default function About() {
                 <span className="text-sm font-mono uppercase tracking-widest">Years of Combined Experience</span>
               </div>
               <div>
-                <span className="block text-4xl font-heading text-primary mb-2">100%</span>
-                <span className="text-sm font-mono uppercase tracking-widest">Project Completion Rate</span>
+                <span className="block text-4xl font-heading text-primary mb-2">SPV / JV</span>
+                <span className="text-sm font-mono uppercase tracking-widest">Entity-Based Execution</span>
               </div>
             </div>
           </div>
