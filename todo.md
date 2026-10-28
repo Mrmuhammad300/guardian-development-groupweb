@@ -10,26 +10,27 @@
 - [x] SMS notification service for critical alerts
 - [x] Bulk email campaigns and investor preference center
 - [x] Header navigation optimization (hides on hero section)
-- [x] Custom domains configured (guardiandevelopmentgroup.com and www.guardiandevelopmentgroup.com)
-- [x] Ecosystem narrative integrated (BDC, Collective AI, RRG/EnerGenius, GDG)
-- [x] Arthur Fayne's project portfolio added to Projects page
-- [x] Ahmad Muhammad positioned as Director of Development and SiteSyncOS™ lead developer
+- [x] Custom-domain configuration documented; current checkpoint is available on the managed project domain
+- [x] Source-aligned ecosystem narrative integrated (BDC, EVIAM-1™, GDG)
+- [x] Public pipeline content added with status-qualified initiatives from the supplied reference site
+- [x] Public leadership language kept role-based unless a named attribution is explicitly confirmed
 
 ## In Progress / Blocked
-- [ ] Debug guardiandevelopmentgroup.com (without www) suspicious activity block - likely Cloudflare WAF issue
-- [ ] Verify www.guardiandevelopmentgroup.com loads correctly after user clears cache
-- [ ] Reconcile public site content against the supplied GDG reference site
-- [ ] Remove fabricated testimonials, team imagery, unsupported returns, and unsupported performance metrics
-- [ ] Replace unsupported investor-marketing language with accurate development, partnership, and project-status language
-- [ ] Add compliant ecosystem and pipeline content with clear proposed / under-evaluation labels
+- Blocked / deferred: Debug guardiandevelopmentgroup.com (without www) because the custom domain is not currently attached to this checkpoint
+- Blocked / deferred: Verify www.guardiandevelopmentgroup.com because the custom domain is not currently attached to this checkpoint
+- [x] Reconcile public site content against the supplied GDG reference site
+- [x] Remove fabricated testimonials, team imagery, unsupported returns, and unsupported performance metrics
+- [x] Replace unsupported investor-marketing language with accurate development, partnership, and project-status language
+- [x] Add compliant ecosystem and pipeline content with clear proposed / under-evaluation labels
 
 ## Remaining Work - Neuro-Conversion Audit Recommendations
-- [ ] Do not use fabricated testimonials, identities, or performance claims; replace with verified case studies when documentation is available
-- [ ] Use architectural or conceptual imagery unless people and image rights are verified
+- [x] Do not use fabricated testimonials, identities, or performance claims; verified case studies remain deferred until documentation is available
+- [x] Use architectural or conceptual imagery unless people and image rights are verified
 - [x] Create FAQ section addressing project process and governance questions
-- [ ] Create downloadable investor materials (track record, capital stack models)
-- [ ] Implement WebSocket real-time updates for investor dashboard
-- [ ] Run final comprehensive audit
+- Deferred / not implemented: Create downloadable investor materials until verified files exist and real downloads are wired
+- Deferred / not implemented: Implement WebSocket real-time updates for investor dashboard; the dashboard avoids placeholder live performance data
+- [x] Run final comprehensive audit — content, build, portal placeholders, and legal routes checked; downloads and WebSocket remain deferred
+- [x] Add working Privacy Policy and Terms of Service routes
 
-## Current Neuro-Conversion Score: Not applicable until factual-content audit is complete
+## Current public-site status: Source-aligned and compliance-audited
 ## Target: Accurate, supportable institutional presentation

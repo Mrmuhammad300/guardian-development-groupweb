@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Link } from "wouter";
-import { Download, Lock, Unlock, FileText, BarChart3, Shield, TrendingUp, ArrowRight } from "lucide-react";
+import { Lock, Unlock, FileText, BarChart3, Shield, TrendingUp, ArrowRight } from "lucide-react";
 
 export default function InvestorPortal() {
   const [isUnlocked, setIsUnlocked] = useState(false);
@@ -30,43 +30,37 @@ export default function InvestorPortal() {
       title: "Track Record Summary",
       description: "A project-specific overview may be provided when verified materials are available for an authorized engagement.",
       icon: BarChart3,
-      filename: "GDG-Track-Record-Summary.pdf",
-      size: "2.4 MB"
+      size: "Pending verification"
     },
     {
       title: "Risk Mitigation Framework",
       description: "Project-specific risk and diligence materials may be provided when verified and approved for release.",
       icon: Shield,
-      filename: "GDG-Risk-Mitigation-Framework.pdf",
-      size: "1.8 MB"
+      size: "Pending verification"
     },
     {
       title: "Capital Stack Architecture",
       description: "Representative structures may be shared where appropriate; they are not a financing commitment or project outcome.",
       icon: TrendingUp,
-      filename: "GDG-Capital-Stack-Architecture.pdf",
-      size: "2.1 MB"
+      size: "Pending verification"
     },
     {
       title: "Development Platform Strategy",
       description: "An overview of GDG's development approach and current focus may be provided as materials are finalized.",
       icon: FileText,
-      filename: "GDG-Platform-Strategy.pdf",
-      size: "1.6 MB"
+      size: "Pending verification"
     },
     {
       title: "SiteSyncOS™ Integration Guide",
       description: "A project-specific overview of the proposed SiteSyncOS™ framework may be provided when available.",
       icon: FileText,
-      filename: "GDG-SiteSyncOS-Integration-Guide.pdf",
-      size: "2.3 MB"
+      size: "Pending verification"
     },
     {
       title: "Governance & Compliance Standards",
       description: "Project governance and documentation are defined by the engagement and applicable professional advisers.",
       icon: FileText,
-      filename: "GDG-Governance-Standards.pdf",
-      size: "1.5 MB"
+      size: "Pending verification"
     }
   ];
 
@@ -211,18 +205,9 @@ export default function InvestorPortal() {
                       </div>
                       <h3 className="font-heading text-xl text-primary mb-3 group-hover:text-accent transition-colors">{resource.title}</h3>
                       <p className="text-muted-foreground font-light text-sm mb-6 leading-relaxed">{resource.description}</p>
-                      <a
-                        href="#"
-                        onClick={(e) => {
-                          e.preventDefault();
-                          // In production, this would trigger actual download
-                          alert(`Downloading: ${resource.filename}`);
-                        }}
-                        className="inline-flex items-center text-primary font-semibold text-sm uppercase tracking-wider hover:text-accent transition-colors group/link"
-                      >
-                        <Download className="w-4 h-4 mr-2 group-hover/link:translate-y-1 transition-transform" />
-                        Download
-                      </a>
+                      <span className="inline-flex items-center text-muted-foreground font-semibold text-sm uppercase tracking-wider">
+                        Materials pending approval
+                      </span>
                     </div>
                   );
                 })}

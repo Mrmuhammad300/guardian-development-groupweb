@@ -133,7 +133,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             <div>
               <h3 className="font-heading font-semibold text-lg mb-4 text-primary">Guardian</h3>
               <p className="text-sm text-muted-foreground">Development Group</p>
-              <p className="text-xs text-muted-foreground mt-2">Est. 2025 — Institutional Grade Development</p>
+              <p className="text-xs text-muted-foreground mt-2">Development through purposeful partnership.</p>
             </div>
             <div>
               <h4 className="font-semibold text-sm uppercase tracking-widest mb-4">Company</h4>
@@ -161,7 +161,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
           </div>
           <div className="border-t border-border pt-8 flex flex-col md:flex-row justify-between items-center text-sm text-muted-foreground">
             <p>&copy; 2025 Guardian Development Group. All rights reserved.</p>
-            <p>Aurora, OH | Institutional Grade Development</p>
+            <p>United States | Development through purposeful partnership</p>
           </div>
         </div>
       </footer>
