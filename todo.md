@@ -18,14 +18,18 @@
 ## In Progress / Blocked
 - [ ] Debug guardiandevelopmentgroup.com (without www) suspicious activity block - likely Cloudflare WAF issue
 - [ ] Verify www.guardiandevelopmentgroup.com loads correctly after user clears cache
+- [ ] Reconcile public site content against the supplied GDG reference site
+- [ ] Remove fabricated testimonials, team imagery, unsupported returns, and unsupported performance metrics
+- [ ] Replace unsupported investor-marketing language with accurate development, partnership, and project-status language
+- [ ] Add compliant ecosystem and pipeline content with clear proposed / under-evaluation labels
 
 ## Remaining Work - Neuro-Conversion Audit Recommendations
-- [x] Add 3-5 investor testimonials with photos, names, titles, and specific returns (+15 points)
-- [x] Replace architecture-only hero image with team/people photo (+5 points)
-- [x] Create FAQ section addressing investor objections (+5 points)
+- [ ] Do not use fabricated testimonials, identities, or performance claims; replace with verified case studies when documentation is available
+- [ ] Use architectural or conceptual imagery unless people and image rights are verified
+- [x] Create FAQ section addressing project process and governance questions
 - [ ] Create downloadable investor materials (track record, capital stack models)
 - [ ] Implement WebSocket real-time updates for investor dashboard
 - [ ] Run final comprehensive audit
 
-## Current Neuro-Conversion Score: 72/100
-## Target Score: 88/100
+## Current Neuro-Conversion Score: Not applicable until factual-content audit is complete
+## Target: Accurate, supportable institutional presentation

@@ -58,7 +58,7 @@ export default function InvestorDashboard() {
         </div>
 
         {/* Key Metrics */}
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mb-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
           <Card className="bg-secondary border-border">
             <CardHeader className="pb-3">
               <CardTitle className="text-sm font-medium text-gray-400 flex items-center gap-2">
@@ -67,8 +67,8 @@ export default function InvestorDashboard() {
               </CardTitle>
             </CardHeader>
             <CardContent>
-              <div className="text-2xl font-bold text-white">$2.48M</div>
-              <p className="text-xs text-gray-400 mt-1">Across 12 projects</p>
+              <div className="text-2xl font-bold text-white">Project-specific</div>
+              <p className="text-xs text-gray-400 mt-1">Shown only from authorized records</p>
             </CardContent>
           </Card>
 
@@ -80,21 +80,8 @@ export default function InvestorDashboard() {
               </CardTitle>
             </CardHeader>
             <CardContent>
-              <div className="text-2xl font-bold text-white">8</div>
-              <p className="text-xs text-gray-400 mt-1">In development</p>
-            </CardContent>
-          </Card>
-
-          <Card className="bg-secondary border-border">
-            <CardHeader className="pb-3">
-              <CardTitle className="text-sm font-medium text-gray-400 flex items-center gap-2">
-                <TrendingUp className="w-4 h-4 text-accent" />
-                Expected Return
-              </CardTitle>
-            </CardHeader>
-            <CardContent>
-              <div className="text-2xl font-bold text-white">18.5%</div>
-              <p className="text-xs text-gray-400 mt-1">Blended IRR</p>
+              <div className="text-2xl font-bold text-white">Live records</div>
+              <p className="text-xs text-gray-400 mt-1">Current access scope</p>
             </CardContent>
           </Card>
 
@@ -106,8 +93,8 @@ export default function InvestorDashboard() {
               </CardTitle>
             </CardHeader>
             <CardContent>
-              <div className="text-2xl font-bold text-accent">Excellent</div>
-              <p className="text-xs text-gray-400 mt-1">All metrics green</p>
+              <div className="text-2xl font-bold text-accent">Updates</div>
+              <p className="text-xs text-gray-400 mt-1">Review project status below</p>
             </CardContent>
           </Card>
         </div>
@@ -139,7 +126,7 @@ export default function InvestorDashboard() {
                     <CardContent className="space-y-4">
                       <div className="grid grid-cols-2 gap-4">
                         <div>
-                          <p className="text-xs text-gray-400">Capital Deployed</p>
+                          <p className="text-xs text-gray-400">Project amount</p>
                           <p className="text-lg font-semibold text-white">${project.totalCapital}</p>
                         </div>
                         <div>
@@ -179,19 +166,8 @@ export default function InvestorDashboard() {
               </CardHeader>
               <CardContent className="space-y-4">
                 <div className="border-l-2 border-accent pl-4 py-2">
-                  <p className="text-sm font-medium text-white">Eastside Market - Phase 2 Complete</p>
-                  <p className="text-xs text-gray-400 mt-1">Completed on Feb 10, 2026</p>
-                  <p className="text-sm text-gray-300 mt-2">Successfully completed Phase 2 construction. On schedule for Q2 stabilization.</p>
-                </div>
-                <div className="border-l-2 border-accent pl-4 py-2">
-                  <p className="text-sm font-medium text-white">Q4 2025 Financial Report</p>
-                  <p className="text-xs text-gray-400 mt-1">Published on Feb 5, 2026</p>
-                  <p className="text-sm text-gray-300 mt-2">Strong performance across portfolio. Average occupancy at 94%.</p>
-                </div>
-                <div className="border-l-2 border-accent pl-4 py-2">
-                  <p className="text-sm font-medium text-white">New Investment Opportunity</p>
-                  <p className="text-xs text-gray-400 mt-1">Available now</p>
-                  <p className="text-sm text-gray-300 mt-2">Mixed-use development in Pittsburgh. Target return 16-18%.</p>
+                  <p className="text-sm font-medium text-white">Project updates appear here when authorized records are available.</p>
+                  <p className="text-sm text-gray-300 mt-2">No public or placeholder performance updates are displayed.</p>
                 </div>
               </CardContent>
             </Card>

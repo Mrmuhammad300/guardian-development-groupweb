@@ -28,42 +28,42 @@ export default function InvestorPortal() {
   const resources = [
     {
       title: "Track Record Summary",
-      description: "Comprehensive overview of Guardian's development portfolio, capital deployment, and project completion metrics.",
+      description: "A project-specific overview may be provided when verified materials are available for an authorized engagement.",
       icon: BarChart3,
       filename: "GDG-Track-Record-Summary.pdf",
       size: "2.4 MB"
     },
     {
       title: "Risk Mitigation Framework",
-      description: "Detailed framework outlining Guardian's approach to project risk identification, assessment, and mitigation strategies.",
+      description: "Project-specific risk and diligence materials may be provided when verified and approved for release.",
       icon: Shield,
       filename: "GDG-Risk-Mitigation-Framework.pdf",
       size: "1.8 MB"
     },
     {
       title: "Capital Stack Architecture",
-      description: "Representative deal structures and capital stack models demonstrating Guardian's approach to project financing.",
+      description: "Representative structures may be shared where appropriate; they are not a financing commitment or project outcome.",
       icon: TrendingUp,
       filename: "GDG-Capital-Stack-Architecture.pdf",
       size: "2.1 MB"
     },
     {
       title: "Development Platform Strategy",
-      description: "Long-term platform strategy, market focus, and institutional-grade operational frameworks.",
+      description: "An overview of GDG's development approach and current focus may be provided as materials are finalized.",
       icon: FileText,
       filename: "GDG-Platform-Strategy.pdf",
       size: "1.6 MB"
     },
     {
       title: "SiteSyncOS™ Integration Guide",
-      description: "Technical overview of SiteSyncOS™ capabilities, integration architecture, and investor reporting features.",
+      description: "A project-specific overview of the proposed SiteSyncOS™ framework may be provided when available.",
       icon: FileText,
       filename: "GDG-SiteSyncOS-Integration-Guide.pdf",
       size: "2.3 MB"
     },
     {
       title: "Governance & Compliance Standards",
-      description: "Guardian's institutional governance framework, compliance protocols, and investor protection mechanisms.",
+      description: "Project governance and documentation are defined by the engagement and applicable professional advisers.",
       icon: FileText,
       filename: "GDG-Governance-Standards.pdf",
       size: "1.5 MB"
@@ -87,7 +87,7 @@ export default function InvestorPortal() {
             Investor <span className="text-accent">Portal</span>
           </h1>
           <p className="text-xl text-gray-300 max-w-2xl font-light leading-relaxed">
-            Access Guardian's institutional-grade resources, track record documentation, and strategic frameworks. Designed for institutional investors, family offices, and qualified development partners.
+                  Request access to project-specific materials and development frameworks when they are available for an authorized engagement.
           </p>
         </div>
       </section>
@@ -103,7 +103,7 @@ export default function InvestorPortal() {
                   <h2 className="font-heading text-3xl text-primary">Unlock Portal Access</h2>
                 </div>
                 <p className="text-muted-foreground font-light mb-8">
-                  To access Guardian's institutional resources, please provide your information below. We verify all requests to ensure resources reach qualified investors and development partners.
+                  Submit your information to request access. Materials are shared only when relevant, verified, and approved for the applicable engagement.
                 </p>
 
                 <form onSubmit={handleUnlock} className="space-y-6">
@@ -181,7 +181,7 @@ export default function InvestorPortal() {
                     size="lg"
                     className="w-full bg-primary text-white hover:bg-accent hover:text-primary rounded-none h-14 text-base uppercase tracking-widest font-bold"
                   >
-                    Unlock Portal Access
+                  Request Portal Access
                   </Button>
                 </form>
 
@@ -197,7 +197,7 @@ export default function InvestorPortal() {
                 <h2 className="font-heading text-3xl text-primary">Welcome, {formData.name}</h2>
               </div>
               <p className="text-muted-foreground font-light mb-12">
-                Portal access granted for <span className="text-primary font-semibold">{formData.organization}</span>. Download institutional resources below.
+                Request recorded for <span className="text-primary font-semibold">{formData.organization}</span>. Available materials are listed below when approved for release.
               </p>
 
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -240,7 +240,7 @@ export default function InvestorPortal() {
               <span className="text-accent font-mono uppercase tracking-widest text-sm block mb-3">Portal Benefits</span>
               <h2 className="font-heading text-4xl mb-4">What's Included</h2>
               <p className="text-gray-300 font-light max-w-2xl mx-auto">
-                Guardian's Investor Portal provides institutional-grade documentation and strategic frameworks to support informed investment decisions.
+                The portal is intended for project-specific documentation and development frameworks. Public marketing copy is not a substitute for diligence materials or formal agreements.
               </p>
             </div>
 
@@ -249,7 +249,7 @@ export default function InvestorPortal() {
                 <BarChart3 className="w-8 h-8 text-accent mb-4" />
                 <h3 className="font-heading text-xl text-white mb-3">Track Record & Performance</h3>
                 <p className="text-gray-300 font-light text-sm leading-relaxed">
-                  Comprehensive documentation of Guardian's development portfolio, capital deployment history, and project completion metrics.
+                  Verified project materials, when available for the authorized engagement.
                 </p>
               </div>
 
@@ -257,7 +257,7 @@ export default function InvestorPortal() {
                 <Shield className="w-8 h-8 text-accent mb-4" />
                 <h3 className="font-heading text-xl text-white mb-3">Risk Management Framework</h3>
                 <p className="text-gray-300 font-light text-sm leading-relaxed">
-                  Detailed risk identification, assessment, and mitigation strategies that protect investor capital and ensure project success.
+                  Project-specific risk, diligence, and governance materials where approved.
                 </p>
               </div>
 

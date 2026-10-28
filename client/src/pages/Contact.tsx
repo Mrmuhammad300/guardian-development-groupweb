@@ -15,7 +15,7 @@ export default function Contact() {
             <span className="text-primary/60 font-mono uppercase tracking-widest text-sm block mb-4">Get in Touch</span>
             <h1 className="font-heading text-5xl md:text-6xl text-primary mb-6">Start the Conversation.</h1>
             <p className="text-xl text-muted-foreground font-light leading-relaxed">
-              We are selective about our partnerships. If you have a complex project that requires disciplined leadership, we want to hear from you.
+              Tell us where the opportunity stands and what support is needed. GDG can help identify whether development planning, partner coordination, or execution support is the right starting point.
             </p>
           </div>
         </div>
@@ -30,8 +30,7 @@ export default function Contact() {
               <div className="flex items-start gap-4 text-muted-foreground font-light">
                 <MapPin className="w-5 h-5 text-accent mt-1 flex-shrink-0" />
                 <address className="not-italic">
-                  Aurora, OH<br />
-                  Cleveland Metropolitan Area<br />
+                  Guardian Development Group, LLC<br />
                   United States
                 </address>
               </div>
@@ -42,22 +41,22 @@ export default function Contact() {
               <div className="space-y-4 text-muted-foreground font-light">
                 <div className="flex items-center gap-4">
                   <Phone className="w-5 h-5 text-accent flex-shrink-0" />
-                  <a href="tel:+12125550199" className="hover:text-primary transition-colors">+1 (212) 555-0199</a>
+                  <a href="tel:+13303489566" className="hover:text-primary transition-colors">(330) 348-9566</a>
                 </div>
                 <div className="flex items-center gap-4">
                   <Mail className="w-5 h-5 text-accent flex-shrink-0" />
-                  <a href="mailto:info@guardiandg.com" className="hover:text-primary transition-colors">info@guardiandg.com</a>
+                  <a href="mailto:afayne@bdc-usa.com" className="hover:text-primary transition-colors">afayne@bdc-usa.com</a>
                 </div>
               </div>
             </div>
 
             <div className="p-8 bg-secondary text-white">
-              <h4 className="font-heading text-xl mb-4">Media Inquiries</h4>
+              <h4 className="font-heading text-xl mb-4">Project inquiries</h4>
               <p className="text-gray-400 text-sm mb-4">
-                For press kits and interview requests with our principals.
+                For development opportunities, partnership questions, and current pipeline inquiries.
               </p>
-              <a href="mailto:press@guardiandg.com" className="text-accent text-sm font-mono uppercase tracking-widest hover:text-white transition-colors">
-                press@guardiandg.com
+              <a href="mailto:afayne@bdc-usa.com" className="text-accent text-sm font-mono uppercase tracking-widest hover:text-white transition-colors">
+                afayne@bdc-usa.com
               </a>
             </div>
           </div>
@@ -107,7 +106,7 @@ export default function Contact() {
               <span className="text-accent font-mono uppercase tracking-widest text-sm block mb-4">Institutional Resources</span>
               <h2 className="font-heading text-4xl md:text-5xl mb-6">Access the Investor Portal</h2>
               <p className="text-xl text-gray-300 font-light leading-relaxed mb-8">
-                Download Guardian's track record, risk mitigation frameworks, and capital structure models. Gated access for qualified investors and development partners.
+                Authorized users may access project-specific materials through the portal. Public pipeline descriptions do not replace formal diligence materials or project agreements.
               </p>
               <Link href="/investor-portal">
                 <Button size="lg" className="bg-accent text-primary hover:bg-white hover:text-primary rounded-none h-14 px-8 text-sm uppercase tracking-widest font-bold">
